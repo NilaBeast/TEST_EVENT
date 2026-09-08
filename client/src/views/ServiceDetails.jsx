@@ -130,43 +130,32 @@ export default function ServiceDetails() {
       </section>
 
       {/* =====================================================
-          3. DARK LUXURY CTA BANNER & GALLERY
+          3. DARK LUXURY CTA BANNER
       ====================================================== */}
-      <section className="servicedetails-cta-section">
-        <div className="container">
-          <div className="servicedetails-cta-banner">
-            <div className="cta-left-details">
-              <h3 className="left">{service.ctaSection.title}</h3>
-              <p className="right">{service.ctaSection.description}</p>
+      {service.ctaSection && (
+        <section className="servicedetails-cta-section">
+          <div className="container">
+            <div className="servicedetails-cta-banner">
+              <div className="cta-center-details">
+                <h3 className="left">{service.ctaSection.title}</h3>
+                <p className="right">{service.ctaSection.description}</p>
 
-              <Link
-                to={service.ctaSection.buttonLink || "/contact-us"}
-                className="cta-btn-gold-action bottom"
-              >
-                <span>{service.ctaSection.buttonText || "GET A FREE QUOTE"}</span>
-                <iconify-icon
-                  icon="ph:arrow-right-bold"
-                  width="14"
-                  height="14"
-                ></iconify-icon>
-              </Link>
-            </div>
-
-            {/* Gallery Thumbnails */}
-            <div className="cta-right-gallery">
-              {service.ctaSection.gallery.map((imgSrc, i) => (
-                <div className="gallery-thumb-card bottom" key={i}>
-                  <img
-                    src={imgSrc}
-                    alt={`${service.title} Gallery ${i + 1}`}
-                    loading="lazy"
-                  />
-                </div>
-              ))}
+                <Link
+                  to={service.ctaSection.buttonLink || "/contact-us"}
+                  className="cta-btn-gold-action bottom"
+                >
+                  <span>{service.ctaSection.buttonText || "GET A FREE QUOTE"}</span>
+                  <iconify-icon
+                    icon="ph:arrow-right-bold"
+                    width="14"
+                    height="14"
+                  ></iconify-icon>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* =====================================================
           4. WHAT OUR CLIENTS SAY (TESTIMONIALS)

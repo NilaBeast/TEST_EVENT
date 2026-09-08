@@ -145,9 +145,9 @@
 .maharaj-hero-brand-badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 6px 18px;
-  margin-bottom: 18px;
+  gap: 12px;
+  padding: 8px 22px;
+  margin-bottom: 20px;
   background: linear-gradient(
     90deg,
     rgba(223, 178, 72, 0.16) 0%,
@@ -163,7 +163,7 @@
 }
 
 .brand-badge-flourish {
-  font-size: 11px;
+  font-size: 20px;
   line-height: 1;
   color: var(--maharaj-gold-bright, #edc761);
   text-shadow: 0 0 8px rgba(223, 178, 72, 0.7);
@@ -172,9 +172,9 @@
 
 .brand-badge-text {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(10px, 1.1vw, 12px);
+  font-size: clamp(16px, 1.4vw, 20px);
   font-weight: 700;
-  letter-spacing: 1.8px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: #dfb248;
   background: linear-gradient(90deg, #ffffff 0%, #f7d984 45%, #dfb248 100%);
@@ -185,15 +185,19 @@
 
 @media (max-width: 640px) {
   .maharaj-hero-brand-badge {
-    padding: 5px 12px;
-    gap: 7px;
+    padding: 6px 14px;
+    gap: 8px;
     margin-bottom: 14px;
     border-radius: 30px;
   }
 
+  .brand-badge-flourish {
+    font-size: 14px;
+  }
+
   .brand-badge-text {
-    font-size: clamp(8.5px, 2.7vw, 10.5px);
-    letter-spacing: 1px;
+    font-size: clamp(12px, 3.4vw, 14.5px);
+    letter-spacing: 1.2px;
     white-space: normal;
     text-align: left;
   }

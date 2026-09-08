@@ -5,8 +5,8 @@ export default function CtaBanner({
   subtitle = "LET'S CREATE YOUR",
   title = "Next Unforgettable Event",
   description = "Share your requirements and let us plan the perfect event for you.",
-  phone = "+91 90071 94502",
-  phoneRaw = "+919007194502",
+  phone = "+91 7450011525",
+  phoneRaw = "+917450011525",
   email = "maharajeventorganiser@gmail.com",
   className = "",
 }) {

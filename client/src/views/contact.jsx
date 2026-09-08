@@ -79,8 +79,8 @@ export default function Contact() {
               </div>
               <div className="info-card-body">
                 <h4 className="info-card-title">Call Us</h4>
-                <a href="tel:+91 9007194502" className="info-card-detail">
-                  +91 9007194502
+                <a href="tel:+91 7450011525" className="info-card-detail">
+                  +91 7450011525
                 </a>
                 <span className="info-card-sub">Mon - Sun: 10:00 AM - 8:00 PM</span>
               </div>

@@ -1,354 +1,352 @@
 [
   {
     "id": 1,
-    "title": "Royal Wedding Mandap",
+    "title": "Royal Wedding Mandap Decoration",
     "image": "/images/gallery/gallery_1.jpg",
-    "alt": "Royal wedding stage with rich red and gold floral decorations",
+    "alt": "Royal wedding mandap with rich red floral decor, luxurious chandeliers, and royal seating",
     "category": "weddings"
   },
   {
     "id": 2,
-    "title": "Luxury Banquet Seating",
+    "title": "Luxury Banquet & Crystal Chandelier Dining",
     "image": "/images/gallery/gallery_2.jpg",
-    "alt": "Luxury dinner banquet tables under grand crystal chandeliers",
+    "alt": "Opulent wedding banquet dinner tables arranged under grand sparkling chandeliers",
     "category": "weddings"
   },
   {
     "id": 3,
-    "title": "Grand Varmala Entrance Stage",
+    "title": "Grand Varmala & Royal Couple Entrance Stage",
     "image": "/images/gallery/gallery_25.png",
-    "alt": "Spectacular royal entrance arch for wedding couples",
+    "alt": "Spectacular royal entrance archway and varmala stage with magnificent floral architecture",
     "category": "weddings"
   },
   {
     "id": 4,
-    "title": "Intimate Canopy Lounge",
+    "title": "Intimate Velvet Canopy Wedding Lounge",
     "image": "/images/gallery/gallery_4.jpg",
-    "alt": "Elegant event seating under a draped red curtain canopy",
+    "alt": "Elegant wedding lounge seating under rich crimson velvet curtain drapery",
     "category": "weddings"
   },
   {
     "id": 5,
-    "title": "Opulent Red & Gold Stage",
+    "title": "Opulent Red & Gold Wedding Reception Stage",
     "image": "/images/gallery/gallery_24.png",
-    "alt": "Magnificent red and gold wedding reception stage decoration",
+    "alt": "Magnificent royal red and gold wedding reception stage with grand floral backdrop",
     "category": "weddings"
   },
   {
     "id": 6,
-    "title": "Vintage Royal Wedding Chariot",
+    "title": "Vintage Royal Wedding Procession Car",
     "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
-    "alt": "Elegant vintage royal wedding car decorated with fresh blooms",
+    "alt": "Classic royal vintage car adorned with fresh floral blooms for bride and groom arrival",
     "category": "weddings"
   },
   {
     "id": 7,
-    "title": "Royal Floral Mandap Architecture",
+    "title": "Intricate Floral Mandap Architecture",
     "image": "/images/gallery/gallery_26.png",
-    "alt": "Intricate floral pillars and ceiling decorations for traditional wedding",
+    "alt": "Exquisite floral pillars and traditional mandap ceiling decorations with marigolds and roses",
     "category": "weddings"
   },
   {
     "id": 8,
-    "title": "Royal Red Wedding Mandap",
+    "title": "Grand Royal Crimson Wedding Mandap",
     "image": "/images/gallery/gallery_27.png",
-    "alt": "Grand royal wedding mandap decorated with red flowers, luxurious drapes, chandeliers, candles, and an elegant wedding seating stage",
+    "alt": "Grand royal wedding mandap decorated with deep red roses, crystal chandeliers, and golden thrones",
     "category": "weddings"
   },
   {
     "id": 9,
-    "title": "Royal Wedding Feast",
+    "title": "Royal Wedding Food Feast & Gourmet Buffet",
     "image": "/images/gallery/gallery_28.png",
-    "alt": "Luxurious Indian wedding food buffet decorated with red roses, golden serving dishes, candles, chandeliers, and elegant red wedding decor",
+    "alt": "Luxurious Indian wedding food buffet featuring golden serveware, candle illumination, and royal decor",
     "category": "weddings"
   },
   {
     "id": 10,
-    "title": "Bengali Wedding Ritual",
+    "title": "Traditional Bengali Wedding Ritual Ceremony",
     "image": "/images/gallery/gallery_29.png",
-    "alt": "Traditional Bengali wedding ceremony with bride and groom performing rituals under a beautifully decorated red and white wedding mandap",
+    "alt": "Auspicious Bengali wedding ceremony rituals performed under a traditional floral mandap",
     "category": "weddings"
   },
   {
     "id": 11,
-    "title": "Elegant Birthday Celebration",
+    "title": "Elegant 21st Milestone Birthday Celebration",
     "image": "/images/gallery/gallery_30.png",
-    "alt": "Elegant pink and gold birthday celebration with a decorated cake table, balloon arch, floral arrangements, candles, gifts, and illuminated 21st birthday numbers",
+    "alt": "Chic pink and gold 21st birthday setup with illuminated marquee numbers, balloon arch, and cake table",
     "category": "birthdays"
   },
   {
     "id": 12,
-    "title": "Balloon Wonderland Birthday Party",
+    "title": "Vibrant Night Lounge Birthday Party",
     "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80",
-    "alt": "Modern night lounge with party lighting and celebratory balloons",
+    "alt": "Modern night lounge birthday party with glowing neon lights and festive balloons",
     "category": "birthdays"
   },
   {
     "id": 13,
-    "title": "Magical Birthday Celebration",
+    "title": "Magical Garden Birthday Celebration",
     "image": "/images/gallery/gallery_31.png",
-    "alt": "Magical outdoor birthday celebration decorated with pink balloons, flowers, fairy lights, disco balls, candles, a birthday cake, and elegant dining tables",
+    "alt": "Enchanting outdoor birthday party with pink balloon clusters, fairy lights, and tiered birthday cake",
     "category": "birthdays"
   },
   {
     "id": 14,
-    "title": "Kids Superhero Themed Extravaganza",
+    "title": "Kids Action-Themed Adventure Party",
     "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=800&q=80",
-    "alt": "Colorful children's birthday celebration arena with fun decorations",
+    "alt": "Vibrant kids birthday party arena featuring colorful decorations and adventure themes",
     "category": "birthdays"
   },
   {
     "id": 15,
-    "title": "Space Adventure Birthday Party",
+    "title": "Space Explorer Themed Kids Birthday Party",
     "image": "/images/gallery/gallery_34.png",
-    "alt": "Fun space-themed birthday party for a young boy with astronauts, rockets, planets, blue balloons, a themed birthday cake, and children celebrating",
+    "alt": "Futuristic space-themed birthday celebration with astronaut props, rocket backdrops, and blue balloons",
     "category": "birthdays"
   },
   {
     "id": 16,
-    "title": "Golden Jubilee Milestone Celebration",
+    "title": "Golden Jubilee 50th Birthday Extravaganza",
     "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80",
-    "alt": "Golden accent balloons and fairy lights for 50th birthday party",
+    "alt": "Luxurious 50th birthday party with gold accent balloon arches and shimmering ambient lighting",
     "category": "birthdays"
   },
   {
     "id": 17,
-    "title": "Enchanted Outdoor Birthday Party",
+    "title": "Enchanted Outdoor Evening Birthday Gala",
     "image": "/images/gallery/gallery_32.png",
-    "alt": "Magical outdoor birthday celebration with fairy lights, balloons, illuminated birthday letters, cozy seating, birthday cake, candles, and a movie screen",
+    "alt": "Fairytale outdoor birthday setup with warm canopy fairy lights, cozy seating, and illuminated letters",
     "category": "birthdays"
   },
-  
-  
   {
     "id": 20,
-    "title": "Traditional Housewarming Pooja Pavilion",
+    "title": "Joyful Themed Birthday Celebration Stage",
     "image": "/images/gallery/gallery_22.png",
-    "alt": "Sacred floral entrance and altar setup for Griha Pravesh pooja",
+    "alt": "Colorful balloon backdrop, festive stage, and custom celebration decorations for birthday parties",
     "category": "birthdays"
   },
   {
     "id": 21,
-    "title": "Aisle of Lanterns & Candles",
+    "title": "Candlelit Rose Petal Aisle & Lantern Pathway",
     "image": "/images/gallery/gallery_13.png",
-    "alt": "Romantic candle lantern pathway decorated with fresh flower petals",
+    "alt": "Romantic candle lantern pathway adorned with fresh rose petals for anniversary couples",
     "category": "anniversaries"
   },
   {
     "id": 22,
-    "title": "Candlelit Waterfront Dinner for Two",
+    "title": "Romantic Waterfront Candlelight Dinner for Two",
     "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80",
-    "alt": "Secluded open-air anniversary dining with candles and wine",
+    "alt": "Secluded open-air waterfront anniversary dining with candles, fine wine, and panoramic night views",
     "category": "anniversaries"
   },
   {
     "id": 23,
-    "title": "Cozy Anniversary Celebration",
+    "title": "Romantic Red Rose & Heart Anniversary Setup",
     "image": "/images/gallery/gallery_17.png",
-    "alt": "Cozy anniversary celebration with a couple sharing cake, surrounded by red roses, heart-shaped balloons, candles, romantic decorations, and cherished photographs",
+    "alt": "Heartwarming anniversary setup with red roses, heart balloons, candle glow, and anniversary cake",
     "category": "anniversaries"
   },
   {
     "id": 24,
-    "title": "Golden Anniversary Memory Pavilion",
+    "title": "Golden 50th Wedding Anniversary Pavilion",
     "image": "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=800&q=80",
-    "alt": "Gold draped outdoor marquee for 50th wedding anniversary",
+    "alt": "Lavish gold-draped marquee for couple golden milestone wedding anniversary",
     "category": "anniversaries"
   },
   {
     "id": 25,
-    "title": "Rose Gold Couple Entrance & Stage",
+    "title": "Rose Gold Floral Archway & Couple Stage",
     "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
-    "alt": "Romantic rose gold floral archway for couple anniversary entry",
+    "alt": "Romantic rose gold floral arch for anniversary couple grand entry and photoshoot",
     "category": "anniversaries"
   },
   {
     "id": 26,
-    "title": "Family Anniversary Celebration",
+    "title": "Festive Golden Jubilee Family Anniversary Celebration",
     "image": "/images/gallery/gallery_18.png",
-    "alt": "Bright marigold and yellow draped decor for Pre-wedding ceremonies",
+    "alt": "Festive family anniversary celebration with bright golden drapes and traditional decor",
     "category": "anniversaries"
   },
   {
     "id": 27,
-    "title": "Romantic Anniversary Celebration",
+    "title": "Warm Candlelit Family Anniversary Gathering",
     "image": "/images/gallery/gallery_35.png",
-    "alt": "Romantic anniversary celebration with a couple cutting a cake, surrounded by family, red roses, candles, heart decorations, and warm fairy lights",
+    "alt": "Warm candlelit anniversary celebration with cake cutting surrounded by family and red rose decor",
     "category": "anniversaries"
   },
   {
     "id": 28,
-    "title": "Elegant Blue and White Anniversary",
+    "title": "Elegant Royal Blue & White Anniversary Gala",
     "image": "/images/gallery/gallery_38.png",
-    "alt": "Elegant blue and white anniversary celebration with a couple sharing cake, blue and white balloons, floral arrangements, candles, gifts, romantic decorations, and a memory photo display",
+    "alt": "Sophisticated blue and white themed anniversary celebration with memory photo display and balloon arches",
     "category": "anniversaries"
   },
   {
     "id": 29,
-    "title": "Romantic Rooftop Anniversary",
+    "title": "Sunset Rooftop Romantic Anniversary Dinner",
     "image": "/images/gallery/gallery_36.png",
-    "alt": "Romantic rooftop anniversary celebration with a couple enjoying a candlelit dinner surrounded by red roses, fairy lights, framed memories, and a beautiful sunset city view",
+    "alt": "Breathtaking rooftop anniversary dinner with cityscape sunset view, fairy lights, and framed memories",
     "category": "anniversaries"
   },
   {
     "id": 30,
-    "title": "Pink Anniversary Celebration",
+    "title": "Blush Pink Romance Couple Anniversary Party",
     "image": "/images/gallery/gallery_39.png",
-    "alt": "Elegant pink-themed anniversary celebration with a couple cutting a cake, surrounded by family, pink balloons, floral arrangements, candles, gifts, and romantic decorations",
+    "alt": "Charming blush pink anniversary celebration with floral arrangements, candlelight, and cake cutting",
     "category": "anniversaries"
   },
   {
     "id": 31,
-    "title": "Office conference",
+    "title": "Executive Corporate Conference & Seminar Hall",
     "image": "/images/gallery/gallery_11.png",
-    "alt": "Vibrant birthday stage decorated with pink, blush, and white roses",
+    "alt": "Professional corporate conference hall with executive seating, podium, and AV presentation setup",
     "category": "corporate"
   },
   {
     "id": 32,
-    "title": "Office Meeting & Presentation Setup",
+    "title": "Modern Corporate Meeting & Presentation Setup",
     "image": "/images/gallery/gallery_20.png",
-    "alt": "Organic balloon garland backdrop with custom LED neon signage",
+    "alt": "Sleek office meeting setup with conference tables, projector display, and professional branding",
     "category": "corporate"
   },
   {
     "id": 33,
-    "title": "Grand LED Stage & Lighting Setup",
+    "title": "Grand Corporate Stage & Dynamic LED Lighting",
     "image": "/images/gallery/gallery_3.jpg",
-    "alt": "Corporate stage with vibrant LED panels and purple wash lights",
+    "alt": "High-impact corporate stage with state-of-the-art LED screen displays and purple wash stage lighting",
     "category": "corporate"
   },
   {
     "id": 34,
-    "title": "Corporate Annual Meet",
+    "title": "Annual Corporate Business Meet & Keynote Forum",
     "image": "/images/gallery/gallery_40.png",
-    "alt": "Professional corporate annual meet with a keynote speaker presenting on stage, large LED presentation screen, blue and white event decorations, seated business audience, floral arrangements, balloons, and TEAM GROW SUCCEED signage",
+    "alt": "Annual corporate meet with keynote speaker stage, large LED backdrop, and seated business audience",
     "category": "corporate"
   },
   {
     "id": 35,
-    "title": "Corporate Annual Celebration",
+    "title": "Corporate Annual Gala Celebration & Networking Lounge",
     "image": "/images/gallery/gallery_41.png",
-    "alt": "Elegant corporate annual celebration with professionals networking, a modern stage and presentation setup, blue and white branding, floral arrangements, refreshments, lounge seating, balloons, and motivational corporate signage",
+    "alt": "Corporate annual celebration with networking lounge, professional stage branding, and refreshments",
     "category": "corporate"
   },
   {
     "id": 36,
-    "title": "Corporate Tech Product Unveiling",
+    "title": "High-Tech Product Launch & Keynote Auditorium",
     "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
-    "alt": "High-tech auditorium stage with dynamic light beams and screens",
+    "alt": "Futuristic auditorium stage with dramatic spotlight beams and product reveal displays",
     "category": "corporate"
   },
   {
     "id": 37,
-    "title": "Luxury Executive Conference Hall",
+    "title": "Luxury Executive Boardroom & Business Summit",
     "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80",
-    "alt": "Modern conference seating arrangement with professional AV equipment",
+    "alt": "Modern executive boardroom seating with cutting-edge audiovisual conference equipment",
     "category": "corporate"
   },
   {
     "id": 38,
-    "title": "Corporate Leadership Summit",
+    "title": "Global Corporate Leadership Summit & Forum",
     "image": "/images/gallery/gallery_42.png",
-    "alt": "Professional corporate leadership summit with a keynote speaker presenting on stage, large LED presentation screen, modern blue and white event branding, business audience, networking area, floral arrangements, and elegant conference hall decor",
+    "alt": "Corporate leadership summit with keynote presentation setup, LED screens, and conference decor",
     "category": "corporate"
   },
   {
     "id": 39,
-    "title": "Networking Lounge & Gala Cocktail",
+    "title": "Corporate Networking Lounge & Evening Cocktail Gala",
     "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80",
-    "alt": "Sleek corporate cocktail reception lounge with ambient lighting",
+    "alt": "Sleek cocktail reception lounge with ambient lighting for business networking events",
     "category": "corporate"
   },
   {
     "id": 40,
-    "title": "Corporate Office Tour",
+    "title": "Corporate Office Tour & Workplace Celebration",
     "image": "/images/gallery/gallery_43.png",
-    "alt": "Professional corporate office tour with employees exploring a modern workplace, guided by a team member, blue and white event branding, office interiors, informational banners, balloons, greenery, and team photography",
+    "alt": "Modern office tour and milestone workplace celebration event for company employees",
     "category": "corporate"
   },
   {
     "id": 41,
-    "title": "Vintage Cars Service",
+    "title": "Luxury Royal Vintage Car Fleet Service",
     "image": "/images/gallery/gallery_15.png",
-    "alt": "Whimsical fairy tale birthday decoration stage setup",
+    "alt": "Impeccably maintained vintage luxury car for grand wedding arrivals, celebrity events, and VIP transport",
     "category": "other"
   },
   {
     "id": 42,
-    "title": "Romantic Outdoor Lounge Canopy",
+    "title": "Traditional Annaprashan (Rice Ceremony) Decor",
     "image": "/images/gallery/gallery_10.png",
-    "alt": "Chic lounge seating arrangement under draped velvet canopy",
+    "alt": "Traditional Bengali rice ceremony stage with sacred brass lamps, floral canopy, and cultural rituals",
     "category": "other"
   },
   {
     "id": 43,
-    "title": "Silver Jubilee Floral Archway",
+    "title": "Chic & Stylish Floral Kitty Party Lounge",
     "image": "/images/gallery/gallery_14.png",
-    "alt": "Custom silver and white floral arch for 25th anniversary celebration",
+    "alt": "Elegant floral lounge and table setup with personalized decor for delightful kitty parties",
     "category": "other"
   },
   {
     "id": 44,
-    "title": "Enchanted Garden Champagne Toast",
+    "title": "Sacred Upanayana (Thread Ceremony) Ritual Altar",
     "image": "/images/gallery/gallery_19.png",
-    "alt": "Intimate garden table setting for romantic wedding anniversary",
+    "alt": "Traditional Vedic thread ceremony setup with marigold flowers, priest altar, and ritual drapery",
     "category": "other"
   },
   {
     "id": 45,
-    "title": "Film Propotion",
+    "title": "Grand Film Promotion & Media Premiere Event",
     "image": "/images/gallery/gallery_8.png",
-    "alt": "Tall candelabras and luxury table settings for corporate dinner",
+    "alt": "High-profile film promotional stage with red carpet media coverage and celebrity press conference setup",
     "category": "other"
   },
   {
     "id": 46,
-    "title": "Catering Services with Elegant Table Setup",
+    "title": "Royal Banquet Catering & Gourmet Dining Setup",
     "image": "/images/gallery/gallery_16.png",
-    "alt": "Illuminated stage setup for annual corporate awards ceremony",
+    "alt": "Exquisite multi-cuisine catering buffet setup with fine cutlery and professional hospitality",
     "category": "other"
   },
   {
     "id": 47,
-    "title": "Global Business Summit Setup",
+    "title": "Dreamy Pastel Baby Shower Celebration Setup",
     "image": "/images/gallery/gallery_21.png",
-    "alt": "Professional conference stage with corporate branding and podium",
+    "alt": "Charming pastel balloon arch, floral cradle, and welcome decor for memorable baby shower celebrations",
     "category": "other"
   },
   {
     "id": 48,
     "title": "Dreamy Fairy Light Outdoor Walkway",
     "image": "/images/gallery/gallery_5.jpg",
-    "alt": "Outdoor walkway illuminated at night with magical fairy lights",
+    "alt": "Outdoor walkway illuminated at night with magical fairy lights and hanging lanterns",
     "category": "other"
   },
   {
     "id": 49,
-    "title": "Royal Gourmet Buffet Display",
+    "title": "Royal Gourmet Buffet & Live Food Counter Display",
     "image": "/images/gallery/gallery_6.jpg",
     "alt": "Gourmet buffet table featuring golden chafing dishes under warm spotlights",
     "category": "other"
   },
   {
     "id": 50,
-    "title": "Luxury Baby Shower Welcome Canopy",
+    "title": "Auspicious Griha Pravesh Housewarming Ceremony",
     "image": "/images/gallery/gallery_23.png",
-    "alt": "Soft pastel theme decor with floral cradle for baby shower celebration",
+    "alt": "Traditional housewarming pooja and welcoming floral entrance decoration for Griha Pravesh",
     "category": "other"
   },
   {
     "id": 51,
-    "title": "Festive Cultural Sangeet Night Stage",
+    "title": "Festive Cultural Sangeet & Musical Night Stage",
     "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
-    "alt": "Vibrant music and dance stage under sparkling canopy lights",
+    "alt": "Vibrant music and dance stage under sparkling canopy lights for Sangeet nights",
     "category": "other"
   },
   {
     "id": 52,
-    "title": "Grand New Year Gala & Concert Show",
+    "title": "Grand Live Concert & Festival Stage Extravaganza",
     "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
-    "alt": "Outdoor festival stage with fireworks and festive illumination",
+    "alt": "Outdoor festival stage with fireworks, concert lighting, and festive illumination",
     "category": "other"
   }
 ]
