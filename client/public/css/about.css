@@ -1,0 +1,1023 @@
+/* =========================================================
+   MAHARAJ EVENT ORGANISER - ABOUT PAGE (OUR PROFILE)
+========================================================= */
+
+.about-page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #faf6f0;
+  color: #3b0b0c;
+}
+
+/* =========================================================
+   MAHARAJ ABOUT HERO
+========================================================= */
+
+.maharaj-about-hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+
+  background-image: url("../images/contact_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+}
+
+/* =========================================================
+   SUBTLE DARK BLEND
+   Keeps the right side visible while giving text area
+   enough contrast.
+========================================================= */
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+  z-index: 1;
+
+  background: linear-gradient(90deg,
+      rgba(3, 1, 1, 0.88) 0%,
+      rgba(3, 1, 1, 0.72) 25%,
+      rgba(4, 1, 1, 0.45) 50%,
+      rgba(5, 2, 2, 0.15) 75%,
+      transparent 100%);
+
+  -webkit-mask-image: url("../images/contact_hero.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center bottom;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("../images/contact_hero.png");
+  mask-size: cover;
+  mask-position: center bottom;
+  mask-repeat: no-repeat;
+}
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.about-hero-content {
+  position: relative;
+  z-index: 3;
+
+  width: min(1180px, 90%);
+  margin: 0 auto;
+
+  /*
+    Slightly higher than center because the bottom
+    transparent curve occupies visual space.
+  */
+  padding-bottom: 42px;
+}
+
+/* =========================================================
+   BREADCRUMB
+========================================================= */
+
+.about-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 9px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.about-breadcrumb a {
+  color: #dfb248;
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.about-breadcrumb a:hover {
+  color: #f2cf72;
+}
+
+.breadcrumb-arrow {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.about-breadcrumb span:last-child {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* =========================================================
+   HERO TITLE
+========================================================= */
+
+.about-hero-content h1 {
+  margin: 0;
+
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(42px, 4vw, 55px);
+  font-weight: 700;
+  line-height: 1;
+
+  letter-spacing: -0.6px;
+
+  color: #ffffff;
+
+  text-shadow:
+    0 3px 15px rgba(0, 0, 0, 0.55),
+    0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/*
+   Gold emphasis on "Our"
+*/
+.about-hero-content h1 span {
+  color: #dfb248;
+}
+
+/* =========================================================
+   GOLD TITLE FLOURISH
+========================================================= */
+
+.about-title-line {
+  position: relative;
+
+  width: 58px;
+  height: 2px;
+
+  margin-top: 13px;
+  margin-bottom: 13px;
+
+  background: linear-gradient(90deg, #b98525, #e1bb59, #c99832);
+
+  box-shadow: 0 0 5px rgba(201, 152, 50, 0.35);
+}
+
+/*
+   Decorative diamond at the right
+*/
+
+.about-title-line span {
+  position: absolute;
+
+  width: 8px;
+  height: 8px;
+
+  top: -3px;
+  right: -4px;
+
+  background: #d5a640;
+
+  transform: rotate(45deg);
+
+  box-shadow: 0 0 5px rgba(223, 178, 72, 0.4);
+}
+
+/* Small central accent */
+.about-title-line::before {
+  content: "";
+
+  position: absolute;
+
+  width: 4px;
+  height: 4px;
+
+  top: -1px;
+  right: -17px;
+
+  border: 1px solid #d5a640;
+
+  transform: rotate(45deg);
+}
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.about-hero-content p {
+  width: min(430px, 90%);
+
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.91);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+
+  line-height: 1.7;
+
+  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.65);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+  .maharaj-about-hero {
+    height: 370px;
+
+    background-position: center top;
+  }
+
+  .about-hero-content {
+    width: 88%;
+    padding-bottom: 38px;
+  }
+
+  .about-hero-content h1 {
+    font-size: 46px;
+  }
+
+  .about-hero-content p {
+    max-width: 410px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+  .maharaj-about-hero {
+    height: 350px;
+
+    /*
+      Keep the important decorative area visible.
+    */
+    background-position: 58% top;
+  }
+
+  .about-hero-content {
+    width: 88%;
+    padding-bottom: 34px;
+  }
+
+  .about-breadcrumb {
+    font-size: 9px;
+    margin-bottom: 8px;
+  }
+
+  .about-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .about-title-line {
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+
+  .about-hero-content p {
+    width: min(360px, 95%);
+
+    font-size: 10.5px;
+    line-height: 1.6;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+  .maharaj-about-hero {
+    height: 330px;
+
+    background-position: 62% top;
+  }
+
+  .about-hero-content {
+    padding-bottom: 28px;
+  }
+
+  .about-hero-content h1 {
+    font-size: 36px;
+  }
+
+  .about-hero-content p {
+    font-size: 10px;
+    max-width: 320px;
+  }
+}
+
+/* =========================================================
+   WHO WE ARE SECTION
+========================================================= */
+
+.maharaj-who-we-are {
+  background-color: #faf6f0;
+  padding: 80px 0;
+  position: relative;
+}
+
+.who-we-are-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.who-we-are-gold-backdrop {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 0;
+  right: 20px;
+  background: #c99832;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.who-we-are-image-frame {
+  position: relative;
+  z-index: 2;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(201, 152, 50, 0.3);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.who-we-are-img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  display: block;
+}
+
+.who-we-are-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #3b0b0c;
+  line-height: 1.12;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.who-we-are-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #5d4c46;
+  line-height: 1.68;
+  margin-bottom: 16px;
+}
+
+/* Highlight Quote Box */
+.who-we-are-quote-box {
+  margin-top: 28px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.quote-line-flourish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #c99832;
+  font-size: 10px;
+  margin: 6px 0;
+}
+
+.flourish-bar {
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  background-color: #c99832;
+  opacity: 0.6;
+}
+
+.quote-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 600;
+  color: #c99832;
+  line-height: 1.35;
+  margin: 10px 0;
+}
+
+.quote-text span {
+  color: #c99832;
+}
+
+/* =========================================================
+   OUR VALUES SECTION (What Drives Us)
+========================================================= */
+
+.maharaj-values-section {
+  background-color: #faf6f0;
+  padding: 70px 0 80px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.value-card {
+  background: #ffffff;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 12px;
+  padding: 30px 16px 26px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  border-color: #c99832;
+  box-shadow: 0 12px 30px rgba(201, 152, 50, 0.18);
+  background: #fffcf7;
+}
+
+.value-card-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #faf3e3;
+  border: 1px solid #e2b957;
+  color: #c99832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.value-card:hover .value-card-icon {
+  transform: scale(1.08);
+  background: #c99832;
+  color: #ffffff;
+}
+
+.value-card-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #3b0b0c;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+
+.value-card-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #6d5c56;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* =========================================================
+   MEET THE TEAM SECTION
+========================================================= */
+
+.maharaj-team-section {
+  position: relative;
+  background: radial-gradient(
+      circle at 50% 35%,
+      rgba(92, 12, 15, 0.32) 0%,
+      rgba(35, 4, 5, 0.08) 45%,
+      transparent 75%
+    ),
+    linear-gradient(135deg, #180203 0%, #280405 45%, #1b0203 100%);
+  padding: 56px 0 48px;
+  border-top: 1px solid rgba(201, 152, 50, 0.35);
+  border-bottom: 1px solid rgba(201, 152, 50, 0.35);
+  overflow: hidden;
+}
+
+.team-section-header {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.team-section-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #d9ad45;
+}
+
+.team-ornament-line {
+  width: 25px;
+  height: 1px;
+  background: #c99832;
+  position: relative;
+}
+
+.team-section-title {
+  margin: 0;
+  color: #f8f2e8;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.3px;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.55);
+}
+
+.team-heading-divider {
+  position: relative;
+  width: 36px;
+  height: 1px;
+  margin: 10px auto 0;
+  background: #c99832;
+}
+
+.team-heading-divider span {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background: #c99832;
+  box-shadow: 0 0 6px rgba(201, 152, 50, 0.35);
+}
+
+/* =========================================================
+   CAROUSEL TRACK (scrollable, infinite)
+========================================================= */
+
+.team-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 0;
+  width: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y pinch-zoom;
+}
+
+.team-track::-webkit-scrollbar {
+  display: none;
+}
+
+.team-track.dragging {
+  cursor: grabbing;
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+/* =========================================================
+   CARD WRAPPER — fixed width per breakpoint
+========================================================= */
+
+.team-card-wrapper {
+  flex: 0 0 calc(25% - 15px);
+  min-width: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+@media (max-width: 991.98px) {
+  .team-card-wrapper {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+/* =========================================================
+   STATIC TEAM GRID (when 4 or fewer items)
+========================================================= */
+
+.team-static-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.team-static-grid .team-card-wrapper {
+  flex: 0 1 340px;
+  max-width: 360px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .team-static-grid {
+    gap: 18px;
+  }
+
+  .team-static-grid .team-card-wrapper {
+    flex: 0 1 calc(50% - 10px);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .team-track {
+    gap: 0;
+    padding: 10px 0;
+  }
+
+  .team-card-wrapper {
+    flex: 0 0 100%;
+    width: 100%;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 16px;
+  }
+
+  .team-static-grid .team-card-wrapper {
+    flex: 0 1 100%;
+    max-width: 320px;
+    padding: 0;
+  }
+
+  .team-card {
+    max-width: 320px;
+    width: 100%;
+  }
+}
+
+/* =========================================================
+   TEAM CARD
+========================================================= */
+
+.team-card {
+  position: relative;
+  width: 100%;
+  padding: 24px 14px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(145deg, rgba(91, 8, 11, 0.42), rgba(47, 4, 6, 0.78));
+  border: 1px solid #9b711f;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 1px rgba(201, 152, 50, 0.045), 0 7px 20px rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  border-color: #dfb248;
+  background: linear-gradient(145deg, rgba(106, 10, 14, 0.52), rgba(49, 4, 6, 0.88));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.38), 0 0 16px rgba(201, 152, 50, 0.08);
+}
+
+.team-avatar-wrapper {
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid #c99832;
+  padding: 3px;
+  margin-bottom: 10px;
+  background: #e4d0a8;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(201, 152, 50, 0.12);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.team-card:hover .team-avatar-wrapper {
+  transform: scale(1.035);
+  border-color: #e5bd5d;
+}
+
+.team-avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-name {
+  margin: 0 0 2px;
+  color: #f0dfbd;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.team-role {
+  display: block;
+  margin-bottom: 8px;
+  color: #d5a53e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+.team-desc {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   PAGINATION DOTS
+========================================================= */
+
+.team-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.team-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(201, 152, 50, 0.3);
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  display: block;
+}
+
+.team-dot:hover {
+  background: rgba(201, 152, 50, 0.6);
+}
+
+.team-dot.active {
+  background: #c99832;
+  width: 22px;
+  border-radius: 4px;
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+========================================================= */
+
+@media (max-width: 1199.98px) {
+  .values-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .who-we-are-image-wrapper {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .who-we-are-gold-backdrop {
+    display: none;
+  }
+
+  .who-we-are-img {
+    height: 340px;
+  }
+
+  .who-we-are-title {
+    font-size: 32px;
+  }
+
+  .quote-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .maharaj-who-we-are,
+  .maharaj-values-section,
+  .maharaj-team-section {
+    padding: 50px 0;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .values-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quote-text {
+    font-size: 17px;
+  }
+
+  .who-we-are-title {
+    font-size: 28px;
+  }
+}
+
+
+/* =========================================================
+   SUBTLE BACKGROUND ORNAMENT
+========================================================= */
+
+.maharaj-team-section::before {
+  content: "";
+
+  position: absolute;
+  width: 420px;
+  height: 420px;
+
+  top: -240px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(201, 152, 50, 0.07);
+
+  pointer-events: none;
+}
+
+.maharaj-team-section::after {
+  content: "";
+
+  position: absolute;
+  width: 600px;
+  height: 600px;
+
+  top: -330px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(201, 152, 50, 0.035);
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   TEAM HEADER
+========================================================= */
+
+.team-section-header {
+  position: relative;
+  z-index: 2;
+
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   GOLD EYEBROW
+========================================================= */
+
+.team-section-subtitle {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin-bottom: 5px;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 10px;
+  font-weight: 600;
+
+  letter-spacing: 0.4px;
+
+  color: #d9ad45;
+}
+
+.team-ornament-line {
+  position: relative;
+
+  width: 25px;
+  height: 1px;
+
+  background: #b98625;
+}
+
+/* Small arrow-like ornament */
+
+.team-ornament-line:first-child::after {
+  content: "";
+
+  position: absolute;
+
+  right: -1px;
+  top: -2px;
+
+  width: 4px;
+  height: 4px;
+
+  border-right: 1px solid #c99832;
+  border-top: 1px solid #c99832;
+
+  transform: rotate(45deg);
+}
+
+.team-ornament-line:last-child::after {
+  content: "";
+
+  position: absolute;
+
+  left: -1px;
+  top: -2px;
+
+  width: 4px;
+  height: 4px;
+
+  border-left: 1px solid #c99832;
+  border-bottom: 1px solid #c99832;
+
+  transform: rotate(45deg);
+}
+
+/* =========================================================
+   MAIN HEADING
+========================================================= */
+
+.team-section-title {
+  margin: 0;
+
+  color: #f8f2e8;
+
+  font-family: "Cormorant Garamond", Georgia, serif;
+
+  font-size: clamp(30px, 3vw, 40px);
+
+  font-weight: 700;
+
+  line-height: 1.05;
+
+  letter-spacing: -0.3px;
+
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.55);
+}
+
+/* =========================================================
+   SMALL GOLD CENTER DIVIDER
+========================================================= */
+
+.team-heading-divider {
+  position: relative;
+
+  width: 36px;
+  height: 1px;
+
+  margin: 9px auto 0;
+
+  background: #c99832;
+}
+
+.team-heading-divider span {
+  position: absolute;
+
+  width: 6px;
+  height: 6px;
+
+  top: -3px;
+  left: 50%;
+
+  transform: translateX(-50%) rotate(45deg);
+
+  background: #c99832;
+
+  box-shadow: 0 0 6px rgba(201, 152, 50, 0.35);
+}
+
+

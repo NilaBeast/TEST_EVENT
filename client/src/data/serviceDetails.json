@@ -1,0 +1,1655 @@
+{
+  "weddings": {
+    "id": "weddings",
+    "slug": "weddings",
+    "title": "Wedding Planning",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/01_weddings.png",
+    "heroDescription": "From venue selection and destination weddings to food, hospitality, decoration and entertainment, Maharaj creates beautiful wedding celebrations with every detail thoughtfully planned.",
+    "heroFeatures": [
+      {
+        "icon": "hugeicons:wedding",
+        "label": "Wedding Planning"
+      },
+      {
+        "icon": "ph:crown-fill",
+        "label": "Royal Hospitality"
+      },
+      {
+        "icon": "ph:sparkles-fill",
+        "label": "Flawless Execution"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Wedding Services",
+      "description": "From venue selection to traditional ceremonies and entertainment, we provide complete wedding event solutions.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of suitable venues for weddings and destination weddings."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Beautiful themes and decorative setups designed around your wedding celebration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Complete food and hospitality arrangements for your wedding guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography",
+          "description": "Professional photography arrangements to capture your special moments."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements to keep the wedding celebration lively."
+        },
+        {
+          "id": 6,
+          "icon": "ph:paint-brush-fill",
+          "title": "Bridal Makeup",
+          "description": "Professional bridal makeup arrangements for the bride's special day."
+        },
+        {
+          "id": 7,
+          "icon": "ph:car-fill",
+          "title": "Wedding Transportation",
+          "description": "Vintage cars, palkis, horses and raths for traditional and grand wedding entries."
+        },
+        {
+          "id": 8,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Ceremonies & Traditions",
+          "description": "Arrangements for mehendi, henna, haldi ceremonies, priests and other traditional wedding requirements."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Plan Your Dream Wedding With Maharaj",
+      "description": "From traditional ceremonies to grand destination weddings, let Maharaj take care of every important detail.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_1.jpg",
+        "/images/gallery/gallery_2.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_4.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": [
+        {
+          "id": 1,
+          "quote": "Maharaj turned our wedding dreams into reality. Every detail was perfect and every guest was amazed.",
+          "author": "— Sourav & Tulika",
+          "stars": 5
+        }
+      ]
+    }
+  },
+
+  "family-events": {
+    "id": "family-events",
+    "slug": "family-events",
+    "title": "Family Events",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/02_family_events.png",
+    "heroDescription": "Bring your loved ones together with beautifully organised family gatherings, celebrations and memorable social occasions.",
+    "heroFeatures": [
+      {
+        "icon": "mdi:account-group-outline",
+        "label": "Family Gatherings"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Personalised Celebrations"
+      },
+      {
+        "icon": "ph:sparkles-fill",
+        "label": "Memorable Moments"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Family Celebration Services",
+      "description": "Maharaj plans warm and enjoyable family occasions ranging from traditional ceremonies to relaxed get-togethers.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Naming Ceremonies",
+          "description": "Thoughtfully arranged family naming ceremonies with suitable event arrangements."
+        },
+        {
+          "id": 2,
+          "icon": "ph:users-three-fill",
+          "title": "Friendly Parties",
+          "description": "Relaxed and enjoyable parties planned for friends and family."
+        },
+        {
+          "id": 3,
+          "icon": "ph:users-four-fill",
+          "title": "Kitty Parties",
+          "description": "Comfortable and engaging kitty party arrangements for groups and friends."
+        },
+        {
+          "id": 4,
+          "icon": "ph:tree-fill",
+          "title": "Picnics",
+          "description": "Family picnic arrangements designed for enjoyable outdoor gatherings."
+        },
+        {
+          "id": 5,
+          "icon": "ph:confetti-fill",
+          "title": "Success Parties",
+          "description": "Celebrations planned to mark achievements and special successes."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Bring Your Family Together",
+      "description": "Celebrate family milestones and special moments with thoughtfully planned gatherings by Maharaj.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_2.jpg",
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "anniversaries": {
+    "id": "anniversaries",
+    "slug": "anniversaries",
+    "title": "Anniversary Celebrations",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/03_anniversaries.png",
+    "heroDescription": "Celebrate your journey together with elegant anniversary arrangements, beautiful decoration, delicious hospitality and memorable entertainment.",
+    "heroFeatures": [
+      {
+        "icon": "ph:heart-fill",
+        "label": "Romantic Celebrations"
+      },
+      {
+        "icon": "ph:sparkles-fill",
+        "label": "Elegant Decoration"
+      },
+      {
+        "icon": "ph:camera-fill",
+        "label": "Beautiful Memories"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Anniversary Services",
+      "description": "Maharaj creates memorable anniversary celebrations with thoughtful planning and complete event arrangements.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of suitable venues for intimate or grand anniversary celebrations."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Beautiful themes and decorations that create the right anniversary ambience."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for family, friends and guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Professional photography and videography of your special celebration."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements suited to the celebration."
+        },
+        {
+          "id": 6,
+          "icon": "ph:airplane-tilt-fill",
+          "title": "Destination Celebration",
+          "description": "Anniversary celebrations planned at destination locations."
+        },
+        {
+          "id": 7,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Mehendi & Henna",
+          "description": "Mehendi and henna arrangements for your anniversary celebration."
+        },
+        {
+          "id": 8,
+          "icon": "ph:user-circle-fill",
+          "title": "Make Up",
+          "description": "Make-up arrangements for the special occasion."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Celebrate Your Journey Together",
+      "description": "Let Maharaj create a beautiful anniversary celebration filled with elegance, warmth and memorable moments.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_2.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_5.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "vintage-cars": {
+    "id": "vintage-cars",
+    "slug": "vintage-cars",
+    "title": "Vintage Car Services",
+    "subTitle": "Our Services",
+    "heroImage": "/images/services_hero_images/04_vintage_cars.png",
+    "heroDescription": "Add timeless elegance and royal charm to your special occasion with our collection of vintage cars. Perfect for wedding arrivals, grand entrances, photography, celebrations and memorable event experiences.",
+    "heroFeatures": [
+      {
+        "icon": "ph:car-fill",
+        "label": "Classic Cars"
+      },
+      {
+        "icon": "ph:crown-fill",
+        "label": "Royal Arrivals"
+      },
+      {
+        "icon": "ph:camera-fill",
+        "label": "Perfect Photo Moments"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Vintage Car Experience",
+      "description": "From elegant wedding entrances to memorable photo sessions, we provide beautifully presented vintage cars with professional coordination and support.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:car-fill",
+          "title": "Vintage Car Collection",
+          "description": "A selection of beautifully maintained classic and vintage cars suitable for different occasions and themes."
+        },
+        {
+          "id": 2,
+          "icon": "ph:crown-fill",
+          "title": "Royal Wedding Arrivals",
+          "description": "Make the bride and groom's arrival truly memorable with an elegant vintage car entrance."
+        },
+        {
+          "id": 3,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Pre-Wedding Shoots",
+          "description": "Classic cars that add a timeless and sophisticated touch to wedding and pre-wedding photographs."
+        },
+        {
+          "id": 4,
+          "icon": "ph:map-pin-fill",
+          "title": "Event Transportation",
+          "description": "Vintage cars arranged for special transportation requirements during weddings, celebrations and private events."
+        },
+        {
+          "id": 5,
+          "icon": "ph:sparkle-fill",
+          "title": "Themed Event Experience",
+          "description": "Cars selected and presented to complement your event theme, décor and overall celebration style."
+        },
+        {
+          "id": 6,
+          "icon": "ph:flower-fill",
+          "title": "Floral Car Decoration",
+          "description": "Beautiful floral and decorative arrangements customized to match wedding and celebration themes."
+        },
+        {
+          "id": 7,
+          "icon": "ph:users-three-fill",
+          "title": "Professional Coordination",
+          "description": "Experienced coordination to ensure the vehicle arrives on time and is positioned perfectly for your event."
+        },
+        {
+          "id": 8,
+          "icon": "ph:shield-check-fill",
+          "title": "Reliable Service",
+          "description": "Carefully coordinated transportation with attention to presentation, timing and guest experience."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Make Your Arrival Truly Grand",
+      "description": "Add a touch of timeless elegance to your celebration with a beautifully presented vintage car.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_1.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": [
+        {
+          "id": 1,
+          "quote": "The vintage car made our wedding entrance absolutely spectacular. It looked beautiful in all our photographs!",
+          "author": "— Sourav & Tuliika",
+          "stars": 5
+        },
+        {
+          "id": 2,
+          "quote": "The car was beautifully decorated and arrived exactly on time. It added such a royal touch to our celebration.",
+          "author": "— Amit Das",
+          "stars": 5
+        },
+        {
+          "id": 3,
+          "quote": "Excellent coordination and a stunning vintage car. Our guests loved the entire experience.",
+          "author": "— Balaram Group",
+          "stars": 5
+        }
+      ]
+    }
+  },
+
+  "catering-services": {
+    "id": "catering-services",
+    "slug": "catering-services",
+    "title": "Catering Services",
+    "subTitle": "Our Services",
+    "heroImage": "/images/services_hero_images/05_catering_services.png",
+    "heroDescription": "Delicious food and exceptional hospitality are at the heart of every successful celebration. Our catering services bring together carefully curated menus, beautiful presentation and professional service for every occasion.",
+    "heroFeatures": [
+      {
+        "icon": "ph:cooking-pot-fill",
+        "label": "Curated Menus"
+      },
+      {
+        "icon": "ph:chef-hat-fill",
+        "label": "Quality Cuisine"
+      },
+      {
+        "icon": "ph:users-three-fill",
+        "label": "Professional Hospitality"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Catering Solutions",
+      "description": "From intimate family gatherings to grand weddings and corporate events, we provide customized food and hospitality solutions designed around your occasion.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:list-bullets-fill",
+          "title": "Customized Menus",
+          "description": "Menus thoughtfully designed according to your event, guest preferences, cuisine choices and budget."
+        },
+        {
+          "id": 2,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Multi-Cuisine Catering",
+          "description": "A wide range of Indian, regional and multi-cuisine options prepared for every type of celebration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:fire-fill",
+          "title": "Live Food Counters",
+          "description": "Interactive live counters serving freshly prepared snacks, meals and specialty dishes."
+        },
+        {
+          "id": 4,
+          "icon": "ph:cake-fill",
+          "title": "Desserts & Sweets",
+          "description": "Delicious desserts, traditional sweets and beautifully presented sweet counters for your guests."
+        },
+        {
+          "id": 5,
+          "icon": "ph:coffee-fill",
+          "title": "Beverages & Refreshments",
+          "description": "Tea, coffee, mocktails, welcome drinks and refreshing beverage stations for every occasion."
+        },
+        {
+          "id": 6,
+          "icon": "ph:users-three-fill",
+          "title": "Guest Hospitality",
+          "description": "Professional service staff ensuring your guests receive warm, attentive and efficient hospitality."
+        },
+        {
+          "id": 7,
+          "icon": "ph:fork-knife-fill",
+          "title": "Buffet & Table Setup",
+          "description": "Elegant buffet arrangements, dining setups and food presentation coordinated with your event décor."
+        },
+        {
+          "id": 8,
+          "icon": "ph:shield-check-fill",
+          "title": "Complete Catering Management",
+          "description": "From preparation and setup to service and cleanup, our team manages the complete catering experience."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Great Events Begin with Great Food",
+      "description": "Let us create a memorable dining experience with delicious cuisine, elegant presentation and warm hospitality for your guests.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_4.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_1.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": [
+        {
+          "id": 1,
+          "quote": "The food was delicious and beautifully presented. Our guests couldn't stop praising the catering!",
+          "author": "— Raj & Priya Sharma",
+          "stars": 5
+        },
+        {
+          "id": 2,
+          "quote": "Excellent variety, professional staff and wonderful hospitality. Everything was perfectly managed.",
+          "author": "— Anil Mehta",
+          "stars": 5
+        },
+        {
+          "id": 3,
+          "quote": "From the starters to the desserts, everything was fresh and delicious. A fantastic catering experience!",
+          "author": "— Megha Kapoor",
+          "stars": 5
+        }
+      ]
+    }
+  },
+
+  "birthday-parties": {
+    "id": "birthday-parties",
+    "slug": "birthday-parties",
+    "title": "Birthday Parties",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/06_birthday_parties.png",
+    "heroDescription": "Celebrate birthdays with colourful themes, entertainment, great food and personalised arrangements designed to make every birthday memorable.",
+    "heroFeatures": [
+      {
+        "icon": "ph:balloon-fill",
+        "label": "Theme Celebrations"
+      },
+      {
+        "icon": "ph:confetti-fill",
+        "label": "Fun & Entertainment"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Memorable Moments"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Birthday Services",
+      "description": "From venue selection and decoration to entertainment and destination celebrations, Maharaj handles the complete birthday experience.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of suitable venues for birthday celebrations."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Creative birthday themes and decorative setups for a personalised celebration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for your guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Photography and videography to preserve the highlights of the celebration."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements for an energetic birthday celebration."
+        },
+        {
+          "id": 6,
+          "icon": "ph:magic-wand-fill",
+          "title": "Magic Shows",
+          "description": "Magic shows and entertainment for guests of different age groups."
+        },
+        {
+          "id": 7,
+          "icon": "ph:smiley-fill",
+          "title": "Cartoons & Entertainment",
+          "description": "Cartoon characters and entertainment activities for birthday celebrations."
+        },
+        {
+          "id": 8,
+          "icon": "ph:airplane-tilt-fill",
+          "title": "Destination Celebrations",
+          "description": "Birthday celebrations organised at destination locations."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Make Every Birthday Special",
+      "description": "Let Maharaj create a fun, colourful and memorable birthday celebration tailored to your occasion.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_2.jpg",
+        "/images/gallery/gallery_4.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "rice-ceremonies": {
+    "id": "rice-ceremonies",
+    "slug": "rice-ceremonies",
+    "title": "Rice Ceremony",
+    "subTitle": "Traditional Ceremonies",
+    "heroImage": "/images/services_hero_images/07_rice_ceremonies.png",
+    "heroDescription": "Celebrate this cherished traditional milestone with authentic arrangements, beautiful decoration, hospitality and professional event coordination.",
+    "heroFeatures": [
+      {
+        "icon": "mdi:lamp",
+        "label": "Traditional Ceremony"
+      },
+      {
+        "icon": "ph:flower-lotus-fill",
+        "label": "Elegant Decoration"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Family Celebration"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Rice Ceremony Services",
+      "description": "Complete arrangements for a traditional rice ceremony, from the venue and decoration to food and photography.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of a suitable venue for the rice ceremony."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Traditional and elegant decorative arrangements for the ceremony."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for family and guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography",
+          "description": "Photography and videography arrangements to capture the ceremony."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Celebrate a Cherished Tradition",
+      "description": "Let Maharaj take care of the arrangements while your family enjoys this important traditional milestone.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_4.jpg",
+        "/images/gallery/gallery_2.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "thread-ceremonies": {
+    "id": "thread-ceremonies",
+    "slug": "thread-ceremonies",
+    "title": "Thread Ceremony",
+    "subTitle": "Traditional Ceremonies",
+    "heroImage": "/images/services_hero_images/08_thread_ceremonies.png",
+    "heroDescription": "Traditional thread ceremonies arranged with authentic rituals, beautiful decoration, hospitality and complete event support.",
+    "heroFeatures": [
+      {
+        "icon": "ph:flower-lotus-fill",
+        "label": "Traditional Rituals"
+      },
+      {
+        "icon": "ph:music-notes-fill",
+        "label": "Celebration"
+      },
+      {
+        "icon": "ph:seal-check-fill",
+        "label": "Complete Arrangements"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Thread Ceremony Services",
+      "description": "From venue selection to traditional arrangements, Maharaj manages the important details of your thread ceremony.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Suitable venue selection for the traditional ceremony."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Traditional decorative arrangements for the ceremony."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality services for family and guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Photography and videography coverage of the ceremony."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music",
+          "description": "Music arrangements for the celebration."
+        },
+        {
+          "id": 6,
+          "icon": "ph:smiley-fill",
+          "title": "Cartoons",
+          "description": "Cartoon entertainment arrangements where required."
+        },
+        {
+          "id": 7,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Haldi Ceremony & Priest",
+          "description": "Arrangements for haldi ceremony and priest services."
+        },
+        {
+          "id": 8,
+          "icon": "ph:car-fill",
+          "title": "Traditional Transportation",
+          "description": "Vintage car, palki and rath arrangements."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Celebrate Your Tradition With Maharaj",
+      "description": "We coordinate the important arrangements so your family can focus on the ceremony and celebration.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_1.jpg",
+        "/images/gallery/gallery_4.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "baby-showers": {
+    "id": "baby-showers",
+    "slug": "baby-showers",
+    "title": "Baby Shower",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/09_baby_showers.png",
+    "heroDescription": "Celebrate the arrival of a new beginning with a warm and charming baby shower featuring beautiful decoration, hospitality and memorable moments.",
+    "heroFeatures": [
+      {
+        "icon": "ph:baby-fill",
+        "label": "Charming Celebration"
+      },
+      {
+        "icon": "ph:flower-lotus-fill",
+        "label": "Beautiful Decoration"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Joyful Moments"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Baby Shower Services",
+      "description": "Maharaj provides complete baby shower arrangements from venue selection and decoration to food, entertainment and make-up.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of a suitable venue for your baby shower celebration."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Beautiful baby shower themes and decorative setups."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for your guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Professional photography and videography of the celebration."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements for the celebration."
+        },
+        {
+          "id": 6,
+          "icon": "ph:smiley-fill",
+          "title": "Entertainment",
+          "description": "Entertainment arrangements to keep guests engaged."
+        },
+        {
+          "id": 7,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Mehendi",
+          "description": "Mehendi arrangements for the special celebration."
+        },
+        {
+          "id": 8,
+          "icon": "ph:user-circle-fill",
+          "title": "Make Up",
+          "description": "Make-up arrangements for the special occasion."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Celebrate the Joy of New Beginnings",
+      "description": "Let Maharaj create a beautiful and memorable baby shower celebration for your family.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_4.jpg",
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_2.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "house-warming": {
+    "id": "house-warming",
+    "slug": "house-warming",
+    "title": "House Warming Celebrations",
+    "subTitle": "Personal Events",
+    "heroImage": "/images/services_hero_images/10_house_warming.png",
+    "heroDescription": "Begin a new chapter in your home with an auspicious house warming celebration planned with warmth, tradition and thoughtful arrangements.",
+    "heroFeatures": [
+      {
+        "icon": "ph:house-fill",
+        "label": "Auspicious Beginnings"
+      },
+      {
+        "icon": "ph:flower-lotus-fill",
+        "label": "Traditional Celebration"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Warm Hospitality"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete House Warming Services",
+      "description": "Maharaj helps organise house warming celebrations with the required venue, decoration, food and hospitality arrangements.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue & Space Planning",
+          "description": "Planning the available home or event space for a comfortable celebration."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Traditional and elegant decoration for your new home celebration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for family and guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography",
+          "description": "Photography and videography arrangements to capture the special occasion."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Begin Your New Chapter With Maharaj",
+      "description": "Celebrate your new home with a beautifully organised house warming ceremony surrounded by family and loved ones.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_1.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "office-events": {
+    "id": "office-events",
+    "slug": "office-events",
+    "title": "Office Events",
+    "subTitle": "Corporate Events",
+    "heroImage": "/images/services_hero_images/11_office_events.png",
+    "heroDescription": "Professional office events planned with the right venue, decoration, hospitality, entertainment and media support to create an engaging corporate experience.",
+    "heroFeatures": [
+      {
+        "icon": "mdi:office-building-outline",
+        "label": "Professional Planning"
+      },
+      {
+        "icon": "ph:briefcase-fill",
+        "label": "Corporate Hospitality"
+      },
+      {
+        "icon": "ph:seal-check-fill",
+        "label": "Seamless Execution"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Office Event Services",
+      "description": "From venue selection to media coverage, Maharaj manages the key arrangements required for successful office events.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of suitable venues for office events and corporate gatherings."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Professional themes and decorative arrangements suited to the occasion."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for employees, guests and attendees."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Professional event photography and videography."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements for corporate celebrations."
+        },
+        {
+          "id": 6,
+          "icon": "ph:video-camera-fill",
+          "title": "Media Coverage",
+          "description": "Media coverage for important office events and corporate occasions."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Make Your Office Event Stand Out",
+      "description": "Maharaj brings professional planning and complete event support to your corporate celebrations.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_2.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Corporate Clients Say",
+      "list": []
+    }
+  },
+
+  "office-conferences": {
+    "id": "office-conferences",
+    "slug": "office-conferences",
+    "title": "Office Conferences",
+    "subTitle": "Corporate Events",
+    "heroImage": "/images/services_hero_images/12_office_conferences.png",
+    "heroDescription": "Professionally organised conferences with suitable venues, hospitality, photography, entertainment and media coverage.",
+    "heroFeatures": [
+      {
+        "icon": "ph:presentation-fill",
+        "label": "Professional Setup"
+      },
+      {
+        "icon": "ph:users-three-fill",
+        "label": "Guest Management"
+      },
+      {
+        "icon": "ph:seal-check-fill",
+        "label": "Smooth Execution"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Conference Event Services",
+      "description": "Maharaj manages the essential arrangements required to conduct successful office conferences.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of appropriate conference venues."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Professional decoration and event setup."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for delegates and guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Event photography and videography coverage."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ support where required."
+        },
+        {
+          "id": 6,
+          "icon": "ph:video-camera-fill",
+          "title": "Media Coverage",
+          "description": "Media coverage for conferences and corporate events."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Professional Conferences, Seamlessly Organised",
+      "description": "From venue and hospitality to media support, Maharaj handles the important details of your conference.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_2.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Corporate Clients Say",
+      "list": []
+    }
+  },
+
+  "product-book-launch": {
+    "id": "product-book-launch",
+    "slug": "product-book-launch",
+    "title": "Product / Book Launch",
+    "subTitle": "Corporate Events",
+    "heroImage": "/images/services_hero_images/13_product_book_launch.png",
+    "heroDescription": "Create a powerful first impression with professionally organised product and book launches supported by hospitality, media and guest management.",
+    "heroFeatures": [
+      {
+        "icon": "ph:rocket-launch-fill",
+        "label": "Impactful Launches"
+      },
+      {
+        "icon": "ph:megaphone-fill",
+        "label": "Media Support"
+      },
+      {
+        "icon": "ph:users-three-fill",
+        "label": "Guest Management"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Launch Event Services",
+      "description": "Maharaj manages the complete event setup for product and book launches, from venue and decoration to special guests and media coverage.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of an appropriate venue for the launch event."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Professional launch themes and venue decoration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for guests and attendees."
+        },
+        {
+          "id": 4,
+          "icon": "ph:camera-fill",
+          "title": "Photography & Videography",
+          "description": "Professional photography and videography of the launch."
+        },
+        {
+          "id": 5,
+          "icon": "ph:hand-waving-fill",
+          "title": "Felicitation",
+          "description": "Felicitation arrangements for guests and participants."
+        },
+        {
+          "id": 6,
+          "icon": "ph:video-camera-fill",
+          "title": "Media Coverage",
+          "description": "Media coverage to support the visibility of the launch."
+        },
+        {
+          "id": 7,
+          "icon": "ph:star-fill",
+          "title": "Special Guests & Stage",
+          "description": "Special guest coordination and stage arrangements."
+        },
+        {
+          "id": 8,
+          "icon": "ph:car-fill",
+          "title": "Guest Pick & Drop",
+          "description": "Pick-up and drop facilities for special guests."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Launch With Impact",
+      "description": "Let Maharaj create a professional and memorable launch event that puts your product or book in the spotlight.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_5.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Corporate Clients Say",
+      "list": []
+    }
+  },
+
+  "musical-concerts": {
+    "id": "musical-concerts",
+    "slug": "musical-concerts",
+    "title": "Musical Concerts",
+    "subTitle": "Corporate & Entertainment Events",
+    "heroImage": "/images/services_hero_images/14_musical_concerts.png",
+    "heroDescription": "From venue and stage decoration to PR, media, music, lighting and guest transportation, Maharaj manages the essential arrangements for memorable musical concerts.",
+    "heroFeatures": [
+      {
+        "icon": "ph:music-notes-fill",
+        "label": "Concert Planning"
+      },
+      {
+        "icon": "ph:speaker-high-fill",
+        "label": "Stage & Sound"
+      },
+      {
+        "icon": "ph:sparkles-fill",
+        "label": "Live Experiences"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Concert Services",
+      "description": "Maharaj provides end-to-end support for musical concerts and live entertainment events.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of suitable venues for musical concerts."
+        },
+        {
+          "id": 2,
+          "icon": "ph:flower-tulip-fill",
+          "title": "Theme & Decoration",
+          "description": "Concert themes and venue decoration."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for guests and attendees."
+        },
+        {
+          "id": 4,
+          "icon": "ph:megaphone-fill",
+          "title": "PR to Celebrities",
+          "description": "PR support and coordination related to celebrity participation."
+        },
+        {
+          "id": 5,
+          "icon": "ph:video-camera-fill",
+          "title": "Media Coverage",
+          "description": "Media coverage for the concert and event."
+        },
+        {
+          "id": 6,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements for the event."
+        },
+        {
+          "id": 7,
+          "icon": "ph:lightbulb-fill",
+          "title": "Lighting & Stage Decoration",
+          "description": "Lighting and stage decoration for the concert environment."
+        },
+        {
+          "id": 8,
+          "icon": "ph:car-fill",
+          "title": "Special Guest Pick & Drop",
+          "description": "Pick-up and drop facilities for special guests."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Create an Unforgettable Concert",
+      "description": "From stage and lighting to hospitality and guest logistics, Maharaj manages the important elements of your concert.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_5.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "film-promotion": {
+    "id": "film-promotion",
+    "slug": "film-promotion",
+    "title": "Film Promotion",
+    "subTitle": "Corporate Events",
+    "heroImage": "/images/services_hero_images/15_film_promotion.png",
+    "heroDescription": "Complete film promotion support covering media, hospitality, logistics, planning, marketing and promotional activities.",
+    "heroFeatures": [
+      {
+        "icon": "ph:film-strip-fill",
+        "label": "Film Promotion"
+      },
+      {
+        "icon": "ph:megaphone-fill",
+        "label": "Marketing Support"
+      },
+      {
+        "icon": "ph:video-camera-fill",
+        "label": "Media Coverage"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Film Promotion Services",
+      "description": "Maharaj supports film promotions with media, hospitality, logistics and promotional planning.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:video-camera-fill",
+          "title": "Media Coverage",
+          "description": "Media coverage for film promotional activities."
+        },
+        {
+          "id": 2,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements on shoot days."
+        },
+        {
+          "id": 3,
+          "icon": "ph:buildings-fill",
+          "title": "Hall Distribution",
+          "description": "Support for hall distribution related to promotional activities."
+        },
+        {
+          "id": 4,
+          "icon": "ph:truck-fill",
+          "title": "Daily Logistics",
+          "description": "Daily logistical arrangements required during promotional activities."
+        },
+        {
+          "id": 5,
+          "icon": "ph:clipboard-text-fill",
+          "title": "Planning & Arrangement",
+          "description": "Planning and arrangement of promotional activities."
+        },
+        {
+          "id": 6,
+          "icon": "ph:megaphone-fill",
+          "title": "Marketing",
+          "description": "Marketing support for film promotion."
+        },
+        {
+          "id": 7,
+          "icon": "ph:star-fill",
+          "title": "Special Host",
+          "description": "Special host arrangements for promotional events."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Promote Your Film With Confidence",
+      "description": "Maharaj coordinates the logistics, hospitality, media and promotional requirements of your film promotion.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_5.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "promotional-tours": {
+    "id": "promotional-tours",
+    "slug": "promotional-tours",
+    "title": "Promotional Tours for Offices",
+    "subTitle": "Corporate Events",
+    "heroImage": "/images/services_hero_images/16_promotional_tours.png",
+    "heroDescription": "Organise memorable corporate promotional tours and destination parties with venue planning, hospitality, entertainment and complete transportation support.",
+    "heroFeatures": [
+      {
+        "icon": "ph:map-trifold-fill",
+        "label": "Destination Planning"
+      },
+      {
+        "icon": "ph:briefcase-fill",
+        "label": "Corporate Experiences"
+      },
+      {
+        "icon": "ph:car-fill",
+        "label": "Pick & Drop Facility"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Promotional Tour Services",
+      "description": "Maharaj manages corporate promotional tours and destination parties with complete event and hospitality arrangements.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-fill",
+          "title": "Venue Selection",
+          "description": "Selection of venues and destinations suitable for promotional events."
+        },
+        {
+          "id": 2,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Food and hospitality arrangements for corporate guests."
+        },
+        {
+          "id": 3,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & DJ",
+          "description": "Music and DJ arrangements for destination parties."
+        },
+        {
+          "id": 4,
+          "icon": "ph:car-fill",
+          "title": "Full Pick & Drop",
+          "description": "Complete pick-up and drop facilities for the tour."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Take Your Corporate Celebration Beyond the Office",
+      "description": "Let Maharaj plan your promotional tour or destination party with hospitality and transportation handled.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_1.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Corporate Clients Say",
+      "list": []
+    }
+  },
+
+  "social-gatherings": {
+    "id": "social-gatherings",
+    "slug": "social-gatherings",
+    "title": "Social Gatherings",
+    "subTitle": "Social Events",
+    "heroImage": "/images/services_hero_images/17_social_gatherings.png",
+    "heroDescription": "Thoughtfully organised social events, puja ceremonies and gatherings for clubs, NGOs and other organisations.",
+    "heroFeatures": [
+      {
+        "icon": "ph:users-three-fill",
+        "label": "Community Events"
+      },
+      {
+        "icon": "ph:flower-lotus-fill",
+        "label": "Puja Ceremonies"
+      },
+      {
+        "icon": "ph:heart-fill",
+        "label": "Social Celebrations"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Social Event Services",
+      "description": "Maharaj organises social and community occasions with arrangements tailored to the nature of the event.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:flower-lotus-fill",
+          "title": "Puja Ceremonies",
+          "description": "Event arrangements for puja ceremonies and traditional social occasions."
+        },
+        {
+          "id": 2,
+          "icon": "ph:users-three-fill",
+          "title": "Club Events",
+          "description": "Organised events for clubs and their members."
+        },
+        {
+          "id": 3,
+          "icon": "ph:users-four-fill",
+          "title": "NGO Events",
+          "description": "Event support for NGOs and organisational social programmes."
+        },
+        {
+          "id": 4,
+          "icon": "ph:calendar-blank-fill",
+          "title": "Social Occasions",
+          "description": "Planning and arrangements for a variety of social gatherings."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Bring People Together",
+      "description": "Maharaj helps organisations and communities create well-managed social gatherings and meaningful occasions.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_5.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+
+  "destination-events": {
+    "id": "destination-events",
+    "slug": "destination-events",
+    "title": "Tours & Destination Events",
+    "subTitle": "Corporate & Destination Events",
+    "heroImage": "/images/services_hero_images/18_destination_events.png",
+    "heroDescription": "From honeymoon packages and destination weddings to corporate events, movie promotions and curated tour packages, Maharaj creates memorable destination experiences.",
+    "heroFeatures": [
+      {
+        "icon": "ph:airplane-tilt-fill",
+        "label": "Destination Planning"
+      },
+      {
+        "icon": "ph:map-pin-fill",
+        "label": "Curated Experiences"
+      },
+      {
+        "icon": "ph:seal-check-fill",
+        "label": "Complete Service"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Destination Event Services",
+      "description": "Maharaj offers destination-focused event services covering celebrations, corporate occasions, promotions and tour packages.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:heart-fill",
+          "title": "Honeymoon Packages",
+          "description": "Curated honeymoon packages for memorable destination experiences."
+        },
+        {
+          "id": 2,
+          "icon": "hugeicons:wedding",
+          "title": "Destination Weddings",
+          "description": "Wedding planning and event arrangements at destination locations."
+        },
+        {
+          "id": 3,
+          "icon": "ph:briefcase-fill",
+          "title": "Destination Office Events",
+          "description": "Destination experiences for office and corporate events."
+        },
+        {
+          "id": 4,
+          "icon": "ph:film-strip-fill",
+          "title": "Movie Promotions",
+          "description": "Destination support for movie promotion activities."
+        },
+        {
+          "id": 5,
+          "icon": "ph:map-trifold-fill",
+          "title": "Tour Packages",
+          "description": "Curated tour packages with complete event and travel-related services."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Make Your Destination Event Extraordinary",
+      "description": "Whether it is a wedding, honeymoon, corporate event or promotional tour, Maharaj helps create a memorable destination experience.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_1.jpg",
+        "/images/gallery/gallery_3.jpg",
+        "/images/gallery/gallery_6.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  },
+  
+  "kitty-parties": {
+    "id": "kitty-parties",
+    "slug": "kitty-parties",
+    "title": "Kitty Party Celebrations",
+    "subTitle": "Our Services",
+    "heroImage": "/images/services_hero_images/19_kitty_parties.png",
+    "heroDescription": "Make your next kitty party special with beautifully planned décor, delicious food, fun activities and thoughtful hospitality. We create relaxed, stylish and entertaining gatherings where you can enjoy quality time with friends.",
+    "heroFeatures": [
+      {
+        "icon": "ph:users-three-fill",
+        "label": "Fun Gatherings"
+      },
+      {
+        "icon": "fluent-emoji-high-contrast:sparkles",
+        "label": "Stylish Themes"
+      },
+      {
+        "icon": "ph:smiley-fill",
+        "label": "Entertainment"
+      }
+    ],
+    "whatWeOffer": {
+      "badge": "WHAT WE OFFER",
+      "title": "Complete Kitty Party Solutions",
+      "description": "From venue setup and themed decoration to food, games and entertainment, we take care of every detail to create a fun and memorable kitty party.",
+      "cards": [
+        {
+          "id": 1,
+          "icon": "ph:map-pin-line-fill",
+          "title": "Venue Selection",
+          "description": "Comfortable and stylish venues selected according to your group size, theme and preferences."
+        },
+        {
+          "id": 2,
+          "icon": "ph:palette-fill",
+          "title": "Theme & Decoration",
+          "description": "Creative themes, floral arrangements, balloons, table décor and beautiful backdrops for your gathering."
+        },
+        {
+          "id": 3,
+          "icon": "ph:cooking-pot-fill",
+          "title": "Food & Hospitality",
+          "description": "Delicious menus, snacks, beverages, desserts and warm hospitality for all your guests."
+        },
+        {
+          "id": 4,
+          "icon": "ph:game-controller-fill",
+          "title": "Games & Activities",
+          "description": "Fun kitty party games, interactive activities, contests and prizes to keep everyone entertained."
+        },
+        {
+          "id": 5,
+          "icon": "ph:music-notes-fill",
+          "title": "Music & Entertainment",
+          "description": "Music, DJ arrangements and engaging entertainment to create a lively party atmosphere."
+        },
+        {
+          "id": 6,
+          "icon": "ph:camera-fill",
+          "title": "Photography",
+          "description": "Professional photography to capture group pictures, candid moments and memorable highlights."
+        },
+        {
+          "id": 7,
+          "icon": "ph:gift-fill",
+          "title": "Gifts & Prizes",
+          "description": "Thoughtfully selected game prizes, return gifts and party favors for your guests."
+        },
+        {
+          "id": 8,
+          "icon": "ph:shield-check-fill",
+          "title": "Complete Coordination",
+          "description": "Our team manages the arrangements and event flow so you can relax, socialize and enjoy the party."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Make Your Kitty Party Extra Special",
+      "description": "Let Maharaj take care of the planning while you enjoy great food, fun games and unforgettable moments with your friends.",
+      "buttonText": "GET A FREE QUOTE",
+      "buttonLink": "/contact-us",
+      "gallery": [
+        "/images/gallery/gallery_2.jpg",
+        "/images/gallery/gallery_4.jpg",
+        "/images/gallery/gallery_6.jpg",
+        "/images/gallery/gallery_1.jpg"
+      ]
+    },
+    "testimonials": {
+      "badge": "What Our Clients Say",
+      "list": []
+    }
+  }
+}

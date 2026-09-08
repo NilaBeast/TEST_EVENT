@@ -1,0 +1,723 @@
+/* =========================================================
+   MAHARAJ EVENT ORGANISER - WHY US PAGE
+   Luxury Branding & Responsive Layout
+========================================================= */
+
+.why-us-page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #faf6f0;
+  color: #3b0b0c;
+}
+
+/* =========================================================
+   HERO BANNER SECTION
+========================================================= */
+
+.maharaj-whyus-hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/why-us_hero.png");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.whyus-hero-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+
+  background: linear-gradient(
+    90deg,
+    rgba(3, 1, 1, 0.88) 0%,
+    rgba(3, 1, 1, 0.72) 25%,
+    rgba(4, 1, 1, 0.45) 50%,
+    rgba(5, 2, 2, 0.15) 75%,
+    transparent 100%
+  );
+
+  -webkit-mask-image: url("../images/why-us_hero.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center bottom;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("../images/why-us_hero.png");
+  mask-size: cover;
+  mask-position: center bottom;
+  mask-repeat: no-repeat;
+}
+
+.whyus-hero-content {
+  position: relative;
+  z-index: 3;
+  width: min(1180px, 90%);
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+/* Breadcrumb */
+.whyus-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.whyus-breadcrumb a {
+  color: #dfb248;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.whyus-breadcrumb a:hover {
+  color: #f0cf70;
+}
+
+.whyus-breadcrumb .breadcrumb-arrow {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.whyus-breadcrumb span:last-child {
+  color: #ffffff;
+}
+
+/* Titles */
+.whyus-hero-content h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(40px, 4.5vw, 58px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+.whyus-hero-content h1 .title-gold {
+  color: #dfb248;
+}
+
+.whyus-title-line {
+  position: relative;
+  width: 58px;
+  height: 2px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #b98525, #e1bb59, #c99832);
+  box-shadow: 0 0 5px rgba(201, 152, 50, 0.35);
+}
+
+.whyus-title-line span {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: -3px;
+  right: -4px;
+  background: #d5a640;
+  transform: rotate(45deg);
+  box-shadow: 0 0 5px rgba(223, 178, 72, 0.4);
+}
+
+.whyus-hero-content p {
+  width: min(500px, 90%);
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.7);
+}
+
+/* =========================================================
+   SECTION 1: OUR PROMISE
+========================================================= */
+
+.whyus-promise-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 85px 0 65px;
+  background-color: #faf6f0;
+}
+
+.section-header-center {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 50px;
+}
+
+.section-tag-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.section-tag-gold .tag-line {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #c99832, transparent);
+}
+
+.section-tag-gold .tag-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #c99832;
+}
+
+.section-header-center h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(34px, 3.4vw, 46px);
+  font-weight: 700;
+  color: #2c0809;
+  line-height: 1.18;
+  margin-bottom: 12px;
+}
+
+.header-ornament-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto 16px;
+  width: 120px;
+}
+
+.header-ornament-line::before,
+.header-ornament-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d5a640);
+}
+
+.header-ornament-line::after {
+  background: linear-gradient(90deg, #d5a640, transparent);
+}
+
+.header-ornament-line span {
+  font-size: 8px;
+  color: #c99832;
+}
+
+.section-header-center p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13.5px;
+  line-height: 1.75;
+  color: #665555;
+  margin: 0;
+}
+
+/* 6 Feature Cards Grid */
+.promise-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  width: min(1280px, 94%);
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .promise-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .promise-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .promise-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.promise-card {
+  background: #ffffff;
+  border: 1px solid rgba(220, 180, 80, 0.28);
+  border-radius: 14px;
+  padding: 36px 18px 28px;
+  text-align: center;
+  box-shadow: 0 4px 22px rgba(44, 8, 9, 0.04);
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promise-card:hover {
+  transform: translateY(-6px);
+  border-color: #dfb248;
+  box-shadow: 0 12px 32px rgba(201, 152, 50, 0.16);
+}
+
+.promise-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b88628;
+  margin-bottom: 20px;
+  transition: all 0.35s ease;
+}
+
+.promise-card:hover .promise-icon {
+  color: #d5a640;
+  transform: scale(1.1);
+}
+
+.promise-card h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #2c0809;
+  margin-bottom: 12px;
+  line-height: 1.22;
+}
+
+.promise-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+  line-height: 1.65;
+  color: #685758;
+  margin: 0;
+}
+
+/* =========================================================
+   SECTION 2: THE MAHARAJ DIFFERENCE (WHAT SETS US APART)
+========================================================= */
+
+.whyus-difference-section {
+  padding: 70px 0 90px;
+  background: #fdfbf7;
+}
+
+.difference-container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .difference-container {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+}
+
+/* Left Image Collage */
+.collage-wrapper {
+  position: relative;
+  min-height: 440px;
+}
+
+.collage-dots-pattern {
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 140px;
+  height: 140px;
+  background-image: radial-gradient(#c99832 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+  opacity: 0.35;
+  z-index: 1;
+}
+
+.collage-dots-pattern-bottom {
+  position: absolute;
+  left: 20px;
+  bottom: -20px;
+  width: 180px;
+  height: 140px;
+  background-image: radial-gradient(#c99832 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+  opacity: 0.35;
+  z-index: 1;
+}
+
+.collage-img-main {
+  position: relative;
+  z-index: 2;
+  width: 65%;
+  height: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 0 15px 35px rgba(44, 8, 9, 0.12);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.collage-img-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.collage-img-main:hover img {
+  transform: scale(1.04);
+}
+
+.collage-img-top-right {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 3;
+  width: 42%;
+  height: 200px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 0 12px 30px rgba(44, 8, 9, 0.15);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.collage-img-top-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.collage-img-top-right:hover img {
+  transform: scale(1.05);
+}
+
+.collage-img-bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  z-index: 4;
+  width: 44%;
+  height: 210px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 0 15px 35px rgba(44, 8, 9, 0.18);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.collage-img-bottom-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.collage-img-bottom-right:hover img {
+  transform: scale(1.05);
+}
+
+/* Right Content */
+.difference-content {
+  text-align: left;
+}
+
+.difference-content h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(34px, 3.5vw, 46px);
+  font-weight: 700;
+  color: #2c0809;
+  line-height: 1.15;
+  margin-top: 6px;
+  margin-bottom: 25px;
+}
+
+.difference-content h2 .title-gold {
+  color: #c99832;
+}
+
+.difference-points-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.difference-point-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #3b1b1c;
+}
+
+.point-check-badge {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #c99832;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 3px 10px rgba(201, 152, 50, 0.3);
+}
+
+.btn-maharaj-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 32px;
+  background: #1e0406;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  box-shadow: 0 6px 20px rgba(30, 4, 6, 0.25);
+  border: 1px solid #3b0b0c;
+}
+
+.btn-maharaj-dark:hover {
+  background: #c99832;
+  color: #ffffff;
+  border-color: #c99832;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(201, 152, 50, 0.35);
+}
+
+/* =========================================================
+   SECTION 3: OUR JOURNEY, YOUR TRUST (STATS STRIP)
+========================================================= */
+
+.whyus-journey-section {
+  background: #160304;
+  padding: 65px 0 110px; /* bottom padding leaves space for floating CTA */
+  position: relative;
+  color: #ffffff;
+}
+
+.journey-container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+}
+
+.journey-title {
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(30px, 3vw, 40px);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.journey-title::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #c99832;
+  margin: 10px auto 0;
+}
+
+.journey-stats-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .journey-stats-strip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .journey-stats-strip {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.journey-stat-card {
+  text-align: center;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.journey-stat-card:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 1px;
+  background: rgba(229, 193, 88, 0.18);
+}
+
+@media (max-width: 991px) {
+  .journey-stat-card::after {
+    display: none;
+  }
+}
+
+.journey-icon {
+  font-size: 32px;
+  color: #dfb248;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.journey-number {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(32px, 3vw, 42px);
+  font-weight: 700;
+  color: #dfb248;
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.journey-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: capitalize;
+}
+
+/* =========================================================
+   SECTION 4: FLOATING CTA BOX
+========================================================= */
+
+.whyus-cta-floating-wrapper {
+  width: min(1140px, 90%);
+  margin: -60px auto 70px;
+  position: relative;
+  z-index: 10;
+}
+
+.cta-floating-box {
+  background: #ffffff;
+  border: 1px solid rgba(201, 152, 50, 0.4);
+  border-radius: 16px;
+  padding: 30px 45px;
+  box-shadow: 0 15px 40px rgba(22, 3, 4, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .cta-floating-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 25px;
+  }
+}
+
+.cta-left-content {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+@media (max-width: 767px) {
+  .cta-left-content {
+    flex-direction: column;
+  }
+}
+
+.cta-icon-badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(250, 246, 240, 0.9);
+  border: 1px solid rgba(201, 152, 50, 0.35);
+  color: #c99832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cta-text-group h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #2c0809;
+  margin-bottom: 4px;
+}
+
+.cta-text-group h3 .title-gold {
+  color: #c99832;
+}
+
+.cta-text-group p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.5px;
+  color: #665555;
+  margin: 0;
+}
+
+.btn-gold-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: #1e0406;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  white-space: nowrap;
+  box-shadow: 0 6px 18px rgba(30, 4, 6, 0.2);
+}
+
+.btn-gold-cta:hover {
+  background: #c99832;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(201, 152, 50, 0.35);
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "personal-events",
+    "title": "Personal Events",
+    "icon": "mdi:crown-outline",
+    "cards": [
+      {
+        "id": "weddings",
+        "title": "Weddings",
+        "icon": "hugeicons:wedding",
+        "description": "From mandap to honeymoon, we craft the wedding of your dreams with royal grandeur and flawless execution.",
+        "link": "/services/weddings"
+      },
+      {
+        "id": "family-events",
+        "title": "Family Events",
+        "icon": "mdi:account-group-outline",
+        "description": "Bringing families together for milestones, reunions and cherished get-togethers.",
+        "link": "/services/family-events"
+      },
+      {
+        "id": "anniversaries",
+        "title": "Anniversaries",
+        "icon": "mdi:heart-outline",
+        "description": "Re-live your love story with a beautifully curated anniversary celebration.",
+        "link": "/services/anniversaries"
+      },
+      {
+        "id": "vintage-cars",
+        "title": "Vintage Cars",
+        "description": "Make your special occasion grand with beautifully maintained vintage cars for wedding arrivals, photo shoots, guest transportation, celebrations and memorable event experiences.",
+        "icon": "mdi:car-side",
+        "image": "/images/gallery/gallery_15.jpg",
+        "link": "/services/vintage-cars"
+      },
+      {
+        "id": "catering-services",
+        "title": "Catering Services",
+        "description": "Complete catering solutions with customized menus, traditional and multi-cuisine food, live counters, snacks, desserts, beverages and professional hospitality for every occasion.",
+        "icon": "mdi:silverware-fork-knife",
+        "image": "/images/gallery/gallery_16.png",
+        "link": "/services/catering-services"
+      },
+      {
+        "id": "birthday-parties",
+        "title": "Birthday Parties",
+        "icon": "mdi:cake-variant-outline",
+        "description": "Joyful and memorable birthday celebrations tailored for every age, theme and budget.",
+        "link": "/services/birthday-parties"
+      },
+      {
+        "id": "baby-showers",
+        "title": "Baby Showers",
+        "icon": "mdi:baby-carriage",
+        "description": "Celebrate the arrival of new beginnings with a warm and charming baby shower event.",
+        "link": "/services/baby-showers"
+      },
+      {
+        "id": "rice-ceremonies",
+        "title": "Rice Ceremonies",
+        "icon": "mdi:lamp",
+        "description": "Traditional rites and rituals conducted with cultural authenticity and reverence.",
+        "link": "/services/rice-ceremonies"
+      },
+      {
+        "id": "house-warming",
+        "title": "House Warming Celebrations",
+        "icon": "mdi:home-outline",
+        "description": "Auspicious house warming ceremonies planned with grace and tradition.",
+        "link": "/services/house-warming"
+      }
+    ]
+  },
+  {
+    "id": "corporate-events",
+    "title": "Corporate Events",
+    "icon": "mdi:office-building-outline",
+    "cards": [
+      {
+        "id": "office-events",
+        "title": "Office Events",
+        "icon": "mdi:office-building-outline",
+        "description": "From annual days to team outings, we make corporate gatherings engaging and impactful.",
+        "link": "/services/office-events"
+      },
+      {
+        "id": "conferences",
+        "title": "Office Conferences",
+        "icon": "mdi:account-group-outline",
+        "description": "Seamlessly organised conferences with state-of-the-art facilities and professional flair.",
+        "link": "/services/conferences"
+      },
+      {
+        "id": "product-launch",
+        "title": "Product Launch",
+        "icon": "mdi:rocket-launch-outline",
+        "description": "Launch your brand's next big thing with a high-energy, unforgettable showcase.",
+        "link": "/services/product-launch"
+      },
+      {
+        "id": "product-promotions",
+        "title": "Product Promotions",
+        "icon": "mdi:bullhorn-outline",
+        "description": "Creative promotional campaigns and activations that put your product in the spotlight.",
+        "link": "/services/product-promotions"
+      },
+      {
+        "id": "tours",
+        "title": "Tours",
+        "icon": "mdi:briefcase-outline",
+        "description": "Curated corporate tours and retreats that blend business with leisure seamlessly.",
+        "link": "/services/tours"
+      }
+    ]
+  }
+]

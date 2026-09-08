@@ -1,0 +1,26 @@
+[
+  {
+    "id": "experience",
+    "number": "24+",
+    "label": "Years of Excellence",
+    "icon": "mdi:crown-outline"
+  },
+  {
+    "id": "events",
+    "number": "1000+",
+    "label": "Events Completed",
+    "icon": "f7:calendar-badge-plus"
+  },
+  {
+    "id": "clients",
+    "number": "880+",
+    "label": "Happy Clients",
+    "icon": "mdi:emoticon-happy-outline"
+  },
+  {
+    "id": "team",
+    "number": "170+",
+    "label": "Expert Team Members",
+    "icon": "mdi:account-group-outline"
+  }
+]

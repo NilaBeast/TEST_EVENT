@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Team",
+    "description": "Our experienced leadership team brings vision, expertise and passion to every celebration, ensuring every event reflects the Maharaj standard of excellence.",
+    "image": "/images/teams/01.png"
+  },
+  {
+    "id": 2,
+    "name": "Team",
+    "description": "Our creative and dedicated team transforms ideas into beautiful experiences, combining thoughtful design, careful planning and flawless execution.",
+    "image": "/images/teams/02.png"
+  }
+]

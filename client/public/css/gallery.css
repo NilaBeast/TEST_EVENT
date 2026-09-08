@@ -1,0 +1,626 @@
+/* =========================================================
+   MAHARAJ EVENT ORGANISER - GALLERY PAGE
+   Design and theme aligned with Maharaj Luxury Branding
+========================================================= */
+
+.gallery-page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #faf6f0;
+  color: #3b0b0c;
+}
+
+/* =========================================================
+   GALLERY HERO BANNER
+========================================================= */
+
+.maharaj-gallery-hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/contact_hero.png");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-hero-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+
+  background: linear-gradient(90deg,
+      rgba(3, 1, 1, 0.88) 0%,
+      rgba(3, 1, 1, 0.72) 25%,
+      rgba(4, 1, 1, 0.45) 50%,
+      rgba(5, 2, 2, 0.15) 75%,
+      transparent 100%);
+
+  -webkit-mask-image: url("../images/contact_hero.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center bottom;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("../images/contact_hero.png");
+  mask-size: cover;
+  mask-position: center bottom;
+  mask-repeat: no-repeat;
+}
+
+.gallery-hero-content {
+  position: relative;
+  z-index: 3;
+  width: min(1180px, 90%);
+  margin: 0 auto;
+  padding-bottom: 90px; /* space for stats and curves */
+  text-align: left;
+}
+
+/* =========================================================
+   BREADCRUMB
+========================================================= */
+
+.gallery-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10.5px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery-breadcrumb a {
+  color: #dfb248;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.gallery-breadcrumb a:hover {
+  color: #f2cf72;
+}
+
+.gallery-breadcrumb .breadcrumb-arrow {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.gallery-breadcrumb span:last-child {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* =========================================================
+   TITLES & DECORATIVE BARS
+========================================================= */
+
+.gallery-hero-content h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(42px, 4vw, 55px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+.gallery-hero-content h1 span {
+  color: #dfb248;
+}
+
+.gallery-title-line {
+  position: relative;
+  width: 58px;
+  height: 2px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #b98525, #e1bb59, #c99832);
+  box-shadow: 0 0 5px rgba(201, 152, 50, 0.35);
+}
+
+.gallery-title-line span {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: -3px;
+  right: -4px;
+  background: #d5a640;
+  transform: rotate(45deg);
+  box-shadow: 0 0 5px rgba(223, 178, 72, 0.4);
+}
+
+.gallery-title-line::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: -1px;
+  right: -17px;
+  border: 1px solid #d5a640;
+  transform: rotate(45deg);
+}
+
+.gallery-hero-content p {
+  width: min(450px, 90%);
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.7);
+}
+
+/* =========================================================
+   STATISTICS COUNTER IN HERO
+========================================================= */
+
+.gallery-hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.gallery-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.gallery-stat-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(199, 150, 47, 0.12);
+  border: 1px solid rgba(226, 185, 87, 0.4);
+  border-radius: 50%;
+  color: #dfb248;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.gallery-stat-item:hover .gallery-stat-icon {
+  transform: scale(1.08);
+  background: #dfb248;
+  color: #1b0304;
+}
+
+.gallery-stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-stat-number {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #dfb248;
+  line-height: 1.1;
+}
+
+.gallery-stat-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 1px;
+}
+
+/* =========================================================
+   CURVED HERO TRANSITION DIVIDER
+========================================================= */
+
+.hero-curve-divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  z-index: 5;
+  width: 100%;
+  height: 110px;
+}
+
+.curve-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.curve-badge {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #1b0304;
+  border: 2px solid #dfb248;
+  box-shadow: 0 4px 15px rgba(223, 178, 72, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dfb248;
+  z-index: 6;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.curve-badge:hover {
+  transform: translateX(-50%) rotate(15deg) scale(1.1);
+}
+
+/* =========================================================
+   GALLERY BODY SECTION
+========================================================= */
+
+.maharaj-gallery-section {
+  background-color: #faf6f0;
+  padding: 60px 0 80px;
+  position: relative;
+}
+
+/* =========================================================
+   FILTER NAVIGATION TABS
+========================================================= */
+
+.gallery-filters-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+}
+
+.gallery-filter-btn {
+  background-color: #ffffff;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 8px;
+  padding: 10px 22px;
+  color: #3b0b0c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.gallery-filter-btn iconify-icon {
+  font-size: 15px;
+  color: #c99832;
+  transition: color 0.3s ease;
+}
+
+.gallery-filter-btn:hover {
+  background-color: #fffaf2;
+  border-color: #c99832;
+  color: #c99832;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(201, 152, 50, 0.12);
+}
+
+.gallery-filter-btn.active {
+  background-color: #3b0b0c;
+  color: #ffffff;
+  border-color: #3b0b0c;
+  box-shadow: 0 8px 20px rgba(59, 11, 12, 0.22);
+}
+
+.gallery-filter-btn.active iconify-icon {
+  color: #ffffff;
+}
+
+/* =========================================================
+   PHOTO GRID
+========================================================= */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.gallery-item-wrapper {
+  animation: scaleUpFade 0.45s ease forwards;
+  opacity: 0;
+  transform: scale(0.92);
+}
+
+@keyframes scaleUpFade {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.gallery-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3/2;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #eae1d4;
+  border: 1px solid rgba(201, 152, 50, 0.16);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Gold Frame Outline on Hover */
+.gallery-card::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(223, 178, 72, 0.6);
+  border-radius: 8px;
+  opacity: 0;
+  scale: 0.95;
+  transition: all 0.4s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Elegant Text Overlay */
+.gallery-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(27, 3, 4, 0.85) 0%,
+    rgba(27, 3, 4, 0.4) 60%,
+    transparent 100%
+  );
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+.gallery-item-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #dfb248;
+  margin-bottom: 2px;
+  transform: translateY(10px);
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.gallery-item-category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.8);
+  transform: translateY(10px);
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: 0.05s;
+}
+
+/* Hover States */
+.gallery-card:hover {
+  transform: translateY(-5px);
+  border-color: #c99832;
+  box-shadow: 0 12px 30px rgba(59, 11, 12, 0.15),
+              0 0 20px rgba(201, 152, 50, 0.1);
+}
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.08);
+}
+
+.gallery-card:hover::after {
+  opacity: 1;
+  scale: 1;
+}
+
+.gallery-card:hover .gallery-card-overlay {
+  opacity: 1;
+}
+
+.gallery-card:hover .gallery-item-title,
+.gallery-card:hover .gallery-item-category {
+  transform: translateY(0);
+}
+
+/* =========================================================
+   VIEW MORE BUTTON
+========================================================= */
+
+.view-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.view-more-btn {
+  background-color: transparent;
+  border: 1.5px solid #3b0b0c;
+  border-radius: 6px;
+  color: #3b0b0c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.view-more-btn iconify-icon {
+  font-size: 14px;
+}
+
+.view-more-btn:hover {
+  background-color: #3b0b0c;
+  color: #ffffff;
+  border-color: #3b0b0c;
+  box-shadow: 0 6px 20px rgba(59, 11, 12, 0.2);
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+========================================================= */
+
+@media (max-width: 1200px) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .gallery-hero-content {
+    width: 88%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .maharaj-gallery-hero {
+    height: 520px;
+  }
+
+  .gallery-hero-content {
+    width: 88%;
+    padding-bottom: 60px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .gallery-hero-stats {
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .gallery-stat-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .gallery-stat-number {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .maharaj-gallery-hero {
+    height: 480px;
+  }
+
+  .gallery-hero-content {
+    padding-bottom: 45px;
+  }
+
+  .gallery-hero-content h1 {
+    font-size: clamp(34px, 3.5vw, 44px);
+  }
+
+  .gallery-hero-content p {
+    font-size: 11.5px;
+    line-height: 1.6;
+    width: 100%;
+  }
+
+  /* Horizontal swipe scrolling tabs on mobile */
+  .gallery-filters-container {
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    gap: 8px;
+  }
+
+  .gallery-filters-container::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .gallery-filters-container::-webkit-scrollbar-thumb {
+    background-color: rgba(201, 152, 50, 0.35);
+    border-radius: 4px;
+  }
+
+  .gallery-filter-btn {
+    flex-shrink: 0;
+    padding: 8px 18px;
+    font-size: 11px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .gallery-hero-stats {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 25px;
+  }
+
+  .gallery-stat-item {
+    gap: 10px;
+  }
+
+  .gallery-stat-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .gallery-stat-icon iconify-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .gallery-stat-number {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .maharaj-gallery-hero {
+    height: 440px;
+  }
+
+  .gallery-hero-content {
+    padding-bottom: 30px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+

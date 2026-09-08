@@ -1,0 +1,703 @@
+/* =========================================================
+   MAHARAJ EVENT ORGANISER - CONTACT US PAGE
+========================================================= */
+
+.contact-page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #FAF6F0;
+  color: #3B0B0C;
+}
+
+/* =========================================================
+   HERO SECTION (Matches About Hero CSS & Design)
+========================================================= */
+
+.maharaj-contact-hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/contact_hero.png");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.contact-hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 1;
+
+  background: linear-gradient(90deg,
+      rgba(3, 1, 1, 0.88) 0%,
+      rgba(3, 1, 1, 0.72) 25%,
+      rgba(4, 1, 1, 0.45) 50%,
+      rgba(5, 2, 2, 0.15) 75%,
+      transparent 100%);
+
+  -webkit-mask-image: url("../images/contact_hero.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center bottom;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url("../images/contact_hero.png");
+  mask-size: cover;
+  mask-position: center bottom;
+  mask-repeat: no-repeat;
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 3;
+  width: min(1180px, 90%);
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.contact-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-breadcrumb a {
+  color: #dfb248;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-breadcrumb a:hover {
+  color: #f0cf70;
+}
+
+.contact-breadcrumb .breadcrumb-arrow {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+  line-height: 1;
+}
+
+.contact-breadcrumb span:last-child {
+  color: #ffffff;
+}
+
+.contact-hero-content h1 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(38px, 4vw, 54px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
+}
+
+.contact-title-line {
+  position: relative;
+  width: 52px;
+  height: 3px;
+  margin-top: 11px;
+  margin-bottom: 12px;
+  background: #c99832;
+}
+
+.contact-title-line span {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: -3px;
+  right: -5px;
+  background: #c99832;
+  transform: rotate(45deg);
+}
+
+.contact-hero-content p {
+  width: min(460px, 90%);
+  margin: 0;
+  color: rgba(255, 255, 255, 0.91);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.65;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* =========================================================
+   CONTACT INFO STRIP (4 Cards)
+========================================================= */
+
+.contact-info-section {
+  background-color: #FAF6F0;
+  padding: 50px 0 20px;
+}
+
+.contact-info-strip {
+  background: #FFFFFF;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 14px;
+  padding: 30px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+}
+
+.info-card-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.info-card-badge {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 50%;
+  background: #2B0407;
+  color: #C99832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(43, 4, 7, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.info-card-item:hover .info-card-badge {
+  transform: scale(1.06);
+  background: #3B0609;
+}
+
+.info-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3B0B0C;
+  margin: 0 0 2px 0;
+  line-height: 1.2;
+}
+
+.info-card-detail {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #3B0B0C;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.info-card-detail:hover {
+  color: #C99832;
+}
+
+.info-card-sub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  color: #6D5C56;
+  margin-top: 2px;
+}
+
+.info-card-divider {
+  width: 1px;
+  height: 52px;
+  background: rgba(201, 152, 50, 0.25);
+  flex-shrink: 0;
+}
+
+.info-social-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.info-social-links a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #2B0407;
+  color: #C99832;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.info-social-links a:hover {
+  background: #C99832;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   GET IN TOUCH (FORM + SIDE BANNER CARD)
+========================================================= */
+
+.contact-form-section {
+  background-color: #FAF6F0;
+  padding: 40px 0 70px;
+}
+
+.contact-form-card {
+  background: #FFFCF8;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 16px;
+  padding: 42px 38px;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+}
+
+.contact-form-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #3B0B0C;
+  margin: 8px 0 10px;
+}
+
+.contact-form-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #6D5C56;
+  margin-bottom: 28px;
+  line-height: 1.55;
+}
+
+.contact-success-alert {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.5px;
+  border-radius: 8px;
+}
+
+.form-group-custom {
+  position: relative;
+}
+
+.form-field-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #C99832;
+  font-size: 18px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.form-control-custom {
+  width: 100%;
+  height: 48px;
+  background: #FAF6F0;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 8px;
+  padding: 0 16px 0 46px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.5px;
+  color: #3B0B0C;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-control-custom::placeholder {
+  color: #8C7B76;
+}
+
+.form-control-custom:focus {
+  background: #FFFFFF;
+  border-color: #C99832;
+  box-shadow: 0 0 0 3.5px rgba(201, 152, 50, 0.14);
+}
+
+.form-select-custom {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.select-caret-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8C7B76;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.textarea-group {
+  position: relative;
+}
+
+.textarea-icon {
+  top: 20px;
+  transform: none;
+}
+
+.textarea-custom {
+  height: 130px;
+  padding-top: 14px;
+  resize: vertical;
+}
+
+.contact-submit-btn {
+  background: #2B0407;
+  border: 1px solid #C99832;
+  color: #FAF6F0;
+  border-radius: 6px;
+  padding: 13px 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(43, 4, 7, 0.2);
+}
+
+.contact-submit-btn:hover {
+  background: #3B0609;
+  border-color: #E2B957;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(43, 4, 7, 0.3);
+}
+
+.contact-corner-flourish {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  pointer-events: none;
+}
+
+/* Side Banner Card Right */
+.contact-side-banner {
+  position: relative;
+  height: 100%;
+  min-height: 480px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #C99832;
+  background-image: url("images/about_hero.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.side-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(27, 3, 4, 0.9) 0%,
+    rgba(43, 4, 7, 0.95) 100%
+  );
+  z-index: 1;
+}
+
+.side-banner-content {
+  position: relative;
+  z-index: 2;
+  padding: 55px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.side-banner-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.side-banner-title span {
+  color: #E2B957;
+}
+
+.side-banner-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.68;
+  margin-bottom: 28px;
+  max-width: 340px;
+}
+
+.side-banner-quote-box {
+  width: 100%;
+}
+
+.side-banner-quote {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 600;
+  color: #C99832;
+  line-height: 1.35;
+  margin: 12px 0;
+}
+
+.side-banner-quote span {
+  color: #C99832;
+}
+
+/* =========================================================
+   OUR LOCATION / MAP SECTION
+========================================================= */
+
+.contact-location-section {
+  background-color: #FAF6F0;
+  padding: 0 0 80px;
+}
+
+.location-card-wrapper {
+  background: #FFFFFF;
+  border: 1px solid rgba(201, 152, 50, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+}
+
+.map-iframe-container {
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+}
+
+.map-iframe-container iframe {
+  display: block;
+}
+
+.location-right-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.location-info-box {
+  position: relative;
+  z-index: 3;
+  padding: 40px 45px;
+  flex: 0 0 54%;
+  max-width: 54%;
+}
+
+.location-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #3B0B0C;
+  margin: 10px 0 16px;
+}
+
+.location-address-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #5D4C46;
+  margin-bottom: 24px;
+}
+
+.location-pin-icon {
+  color: #C99832;
+  font-size: 24px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.address-text span {
+  display: block;
+  line-height: 1.45;
+}
+
+.location-directions-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 1px solid #C99832;
+  border-radius: 4px;
+  color: #3B0B0C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  background: #FFFFFF;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.location-directions-btn:hover {
+  background: #C99832;
+  color: #FFFFFF;
+  border-color: #C99832;
+  transform: translateY(-2px);
+}
+
+.location-building-img-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.location-building-img-wrapper picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.location-building-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 68%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  display: block;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.25) 20%, rgba(0, 0, 0, 1) 50%);
+  mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.25) 20%, rgba(0, 0, 0, 1) 50%);
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+========================================================= */
+
+@media (max-width: 1199.98px) {
+  .contact-info-strip {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .info-card-item {
+    flex: 0 0 calc(50% - 10px);
+    padding: 0;
+  }
+
+  .info-card-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact-form-card {
+    padding: 32px 24px;
+  }
+
+  .contact-side-banner {
+    min-height: 400px;
+  }
+
+  .map-iframe-container {
+    height: 250px;
+    min-height: 250px;
+  }
+
+  .location-right-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    background: #FFFFFF;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .location-info-box {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 20px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+  }
+
+  .location-info-box .section-subtitle-wrapper {
+    justify-content: center;
+  }
+
+  .location-address-row {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .location-building-img-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 210px;
+    background: #1B0304;
+    overflow: hidden;
+    border-top: 1px solid rgba(201, 152, 50, 0.25);
+  }
+
+  .location-building-img {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 85% center;
+    display: block;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .info-card-item {
+    flex: 0 0 100%;
+  }
+
+  .contact-form-title {
+    font-size: 30px;
+  }
+
+  .side-banner-title {
+    font-size: 28px;
+  }
+
+  .location-title {
+    font-size: 28px;
+  }
+}
