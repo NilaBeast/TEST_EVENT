@@ -18,7 +18,7 @@
   width: 100%;
   height: 600px;
 
-  background-image: url("../images/contact_hero.png");
+  background-image: url("../images/about_hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -49,11 +49,11 @@
       rgba(5, 2, 2, 0.15) 75%,
       transparent 100%);
 
-  -webkit-mask-image: url("../images/contact_hero.png");
+  -webkit-mask-image: url("../images/about_hero.png");
   -webkit-mask-size: cover;
   -webkit-mask-position: center bottom;
   -webkit-mask-repeat: no-repeat;
-  mask-image: url("../images/contact_hero.png");
+  mask-image: url("../images/about_hero.png");
   mask-size: cover;
   mask-position: center bottom;
   mask-repeat: no-repeat;
@@ -227,7 +227,7 @@
   .maharaj-about-hero {
     height: 370px;
 
-    background-position: center top;
+    background-position: center bottom;
   }
 
   .about-hero-content {
@@ -252,10 +252,7 @@
   .maharaj-about-hero {
     height: 350px;
 
-    /*
-      Keep the important decorative area visible.
-    */
-    background-position: 58% top;
+    background-position: center bottom;
   }
 
   .about-hero-content {
@@ -293,7 +290,7 @@
   .maharaj-about-hero {
     height: 330px;
 
-    background-position: 62% top;
+    background-position: center bottom;
   }
 
   .about-hero-content {
