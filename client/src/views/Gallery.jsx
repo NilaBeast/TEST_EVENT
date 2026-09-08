@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import "iconify-icon";
 import galleryData from "../data/gallery.json";
+import statsData from "../data/stats.json";
 import Counter from "../components/Counter";
 import CtaBanner from "../components/CtaBanner";
 import "../../public/css/gallery.css";
@@ -10,24 +11,24 @@ export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState("all");
   const [visibleCount, setVisibleCount] = useState(12);
 
-  // Statistics Data for Hero
+  // Statistics Data for Hero sourced from stats.json
   const statsList = [
     {
       id: "captured",
-      number: "1000+",
+      number: statsData.find((s) => s.id === "events")?.number || "1000+",
       label: "Events Captured",
       icon: "ph:camera-fill",
     },
     {
       id: "clients",
-      number: "800+",
-      label: "Happy Clients",
+      number: statsData.find((s) => s.id === "clients")?.number || "880+",
+      label: statsData.find((s) => s.id === "clients")?.label || "Happy Clients",
       icon: "ph:smiley-fill",
     },
     {
       id: "excellence",
-      number: "22+",
-      label: "Years of Excellence",
+      number: statsData.find((s) => s.id === "experience")?.number || "24+",
+      label: statsData.find((s) => s.id === "experience")?.label || "Years of Excellence",
       icon: "ph:crown-fill",
     },
   ];
