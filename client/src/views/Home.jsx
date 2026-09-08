@@ -366,7 +366,7 @@ export default function Home() {
                   <div className="maharaj-hero-brand-badge left">
                     <span className="brand-badge-flourish">✦</span>
                     <span className="brand-badge-text">
-                      Maharaj The Event Galaxy Pvt. Ltd.
+                      Event Maharaj Galaxy Pvt. Ltd.
                     </span>
                     <span className="brand-badge-flourish">✦</span>
                   </div>
