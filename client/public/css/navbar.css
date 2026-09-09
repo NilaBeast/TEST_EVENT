@@ -67,7 +67,7 @@ body {
 .maharaj-logo img {
   width: auto;
   max-width: none;
-  height: 92px;
+  height: 110px;
 
   display: block;
 
@@ -718,7 +718,7 @@ body {
   .maharaj-logo img {
     width: auto;
     max-width: none;
-    height: 92px;
+    height: 120px;
   }
 
   .maharaj-nav .nav-link {
@@ -744,7 +744,7 @@ body {
   .maharaj-logo img {
     width: auto;
     max-width: none;
-    height: 88px;
+    height: 100px;
   }
 
   .maharaj-nav .nav-link {
@@ -840,7 +840,7 @@ body {
   .maharaj-logo img {
     width: auto;
     max-width: none;
-    height: 80px;
+    height: 100px;
 
     object-fit: contain;
   }
@@ -1349,7 +1349,7 @@ body {
   .maharaj-logo img {
     width: auto;
     max-width: none;
-    height: 68px;
+    height: 85px;
   }
 
   .maharaj-toggler {
