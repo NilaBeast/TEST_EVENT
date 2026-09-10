@@ -345,7 +345,7 @@ export default function Contact() {
               <div className="col-12 col-lg-5">
                 <div className="map-iframe-container">
                   <iframe
-                    title="Event Maharaj Galaxy Location Map"
+                    title="Maharaj The Event Organiser Location Map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14727.649331905977!2d88.35905078715824!3d22.65705700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89d236ad8fa33%3A0x299763d4a5ebcb3f!2sEvent%20Maharaj%20Galaxy%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1787859814779!5m2!1sen!2sin"
                     width="100%"
                     height="100%"

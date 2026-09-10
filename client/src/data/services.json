@@ -88,28 +88,28 @@
         "title": "Office Conferences",
         "icon": "mdi:account-group-outline",
         "description": "Seamlessly organised conferences with state-of-the-art facilities and professional flair.",
-        "link": "/services/conferences"
+        "link": "/services/office-conferences"
       },
       {
         "id": "product-launch",
         "title": "Product Launch",
         "icon": "mdi:rocket-launch-outline",
         "description": "Launch your brand's next big thing with a high-energy, unforgettable showcase.",
-        "link": "/services/product-launch"
+        "link": "/services/product-book-launch"
       },
       {
-        "id": "product-promotions",
-        "title": "Product Promotions",
+        "id": "film-promotions",
+        "title": "Film Promotions",
         "icon": "mdi:bullhorn-outline",
         "description": "Creative promotional campaigns and activations that put your product in the spotlight.",
-        "link": "/services/product-promotions"
+        "link": "/services/film-promotion"
       },
       {
         "id": "tours",
-        "title": "Tours",
+        "title": "Office Tours",
         "icon": "mdi:briefcase-outline",
         "description": "Curated corporate tours and retreats that blend business with leisure seamlessly.",
-        "link": "/services/tours"
+        "link": "/services/promotional-tours"
       }
     ]
   }

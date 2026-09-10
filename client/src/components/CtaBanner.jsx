@@ -5,8 +5,8 @@ export default function CtaBanner({
   subtitle = "LET'S CREATE YOUR",
   title = "Next Unforgettable Event",
   description = "Share your requirements and let us plan the perfect event for you.",
-  phone = "+91 7450011525",
-  phoneRaw = "+917450011525",
+  phone = "+91 9007194502",
+  phoneRaw = "+919007194502",
   email = "maharajeventorganiser@gmail.com",
   className = "",
 }) {
@@ -15,25 +15,12 @@ export default function CtaBanner({
       <div className="container">
         <div className="cta-banner">
           <div className="cta-left-content">
-            <div className="cta-icon-wrapper">
-              <svg
-                width="58"
-                height="58"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#E2B957"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="cta-icon-svg"
-              >
-                <path d="M16 2v4M8 2v4" />
-                <path d="M3 10h18" />
-                <path d="M19 6H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h9" />
-                <path d="M7 14.5l2.5 2.5 3.5-3.5" />
-                <circle cx="18" cy="18" r="4" />
-                <path d="M18 16.5v1.5l1 1" />
-              </svg>
+            <div className="cta-brand-area">
+              <div className="maharaj-hero-brand-stack brand-stack-cta">
+                <span className="brand-name-maharaj">Maharaj</span>
+                <span className="brand-name-organiser">The Event Organiser</span>
+                <span className="brand-name-company">Event Maharaj Galaxy Pvt. Ltd.</span>
+              </div>
             </div>
             <div className="cta-text">
               <span className="cta-subtitle">{subtitle}</span>

@@ -282,9 +282,10 @@ export default function About() {
                   <span className="ornate-line"></span>
                 </div>
 
-                <h2 className="who-we-are-title bottom">
-                  Maharaj <br />
-                  The Event Organiser
+                <h2 className="who-we-are-brand-stack bottom">
+                  <span className="brand-name-maharaj">Maharaj</span>
+                  <span className="brand-name-organiser">The Event Organiser</span>
+                  <span className="brand-name-company">Event Maharaj Galaxy Pvt. Ltd.</span>
                 </h2>
 
                 <p className="who-we-are-text left">
@@ -302,23 +303,7 @@ export default function About() {
                   earned us the trust and respect of our clients.
                 </p>
 
-                {/* Highlight Quote Block */}
-                <div className="who-we-are-quote-box">
-                  <div className="quote-line-flourish">
-                    <span className="flourish-diamond">❖</span>
-                    <span className="flourish-bar"></span>
-                    <span className="flourish-diamond">❖</span>
-                  </div>
-                  <blockquote className="quote-text bottom">
-                    “ Experience The Pleasure of <br />
-                    <span>Delicious Food and Royal Hospitality ”</span>
-                  </blockquote>
-                  <div className="quote-line-flourish">
-                    <span className="flourish-diamond">❖</span>
-                    <span className="flourish-bar"></span>
-                    <span className="flourish-diamond">❖</span>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>

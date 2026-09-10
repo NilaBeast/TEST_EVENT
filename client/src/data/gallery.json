@@ -36,15 +36,15 @@
   },
   {
     "id": 6,
-    "title": "Vintage Royal Wedding Procession Car",
-    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    "title": "Vintage Royal Wedding",
+    "image": "/images/gallery/gallery_49.png",
     "alt": "Classic royal vintage car adorned with fresh floral blooms for bride and groom arrival",
     "category": "weddings"
   },
   {
     "id": 7,
     "title": "Intricate Floral Mandap Architecture",
-    "image": "/images/gallery/gallery_26.png",
+    "image": "/images/gallery/gallery_50.png",
     "alt": "Exquisite floral pillars and traditional mandap ceiling decorations with marigolds and roses",
     "category": "weddings"
   },
@@ -79,7 +79,7 @@
   {
     "id": 12,
     "title": "Vibrant Night Lounge Birthday Party",
-    "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_45.jpeg",
     "alt": "Modern night lounge birthday party with glowing neon lights and festive balloons",
     "category": "birthdays"
   },
@@ -92,10 +92,10 @@
   },
   {
     "id": 14,
-    "title": "Kids Action-Themed Adventure Party",
+    "title": "Action-Themed Adventure Party",
     "image": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=800&q=80",
     "alt": "Vibrant kids birthday party arena featuring colorful decorations and adventure themes",
-    "category": "birthdays"
+    "category": "corporate"
   },
   {
     "id": 15,
@@ -134,29 +134,29 @@
   },
   {
     "id": 22,
-    "title": "Romantic Waterfront Candlelight Dinner for Two",
-    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80",
+    "title": "Romantic Waterfront Candlelight Dinner",
+    "image": "/images/gallery/gallery_44.jpg",
     "alt": "Secluded open-air waterfront anniversary dining with candles, fine wine, and panoramic night views",
     "category": "anniversaries"
   },
   {
     "id": 23,
     "title": "Romantic Red Rose & Heart Anniversary Setup",
-    "image": "/images/gallery/gallery_17.png",
+    "image": "/images/gallery/gallery_51.png",
     "alt": "Heartwarming anniversary setup with red roses, heart balloons, candle glow, and anniversary cake",
     "category": "anniversaries"
   },
   {
     "id": 24,
     "title": "Golden 50th Wedding Anniversary Pavilion",
-    "image": "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_52.png",
     "alt": "Lavish gold-draped marquee for couple golden milestone wedding anniversary",
     "category": "anniversaries"
   },
   {
     "id": 25,
     "title": "Rose Gold Floral Archway & Couple Stage",
-    "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_53.png",
     "alt": "Romantic rose gold floral arch for anniversary couple grand entry and photoshoot",
     "category": "anniversaries"
   },
@@ -170,7 +170,7 @@
   {
     "id": 27,
     "title": "Warm Candlelit Family Anniversary Gathering",
-    "image": "/images/gallery/gallery_35.png",
+    "image": "/images/gallery/gallery_46.png",
     "alt": "Warm candlelit anniversary celebration with cake cutting surrounded by family and red rose decor",
     "category": "anniversaries"
   },
@@ -240,7 +240,7 @@
   {
     "id": 37,
     "title": "Luxury Executive Boardroom & Business Summit",
-    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_47.png",
     "alt": "Modern executive boardroom seating with cutting-edge audiovisual conference equipment",
     "category": "corporate"
   },
@@ -254,7 +254,7 @@
   {
     "id": 39,
     "title": "Corporate Networking Lounge & Evening Cocktail Gala",
-    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_48.png",
     "alt": "Sleek cocktail reception lounge with ambient lighting for business networking events",
     "category": "corporate"
   },
@@ -345,7 +345,7 @@
   {
     "id": 52,
     "title": "Grand Live Concert & Festival Stage Extravaganza",
-    "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/gallery/gallery_54.png",
     "alt": "Outdoor festival stage with fireworks, concert lighting, and festive illumination",
     "category": "other"
   }

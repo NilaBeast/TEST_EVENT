@@ -52,8 +52,12 @@
 .gallery-hero-content {
   position: relative;
   z-index: 3;
-  width: min(1180px, 90%);
-  margin: 0 auto;
+  width: 100%;
+  max-width: 680px;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: clamp(16px, 2.5vw, 32px);
+  padding-right: 20px;
   padding-bottom: 90px; /* space for stats and curves */
   text-align: left;
 }
@@ -114,8 +118,8 @@
 
 .gallery-title-line {
   position: relative;
-  width: 58px;
-  height: 2px;
+  width: 80px;
+  height: 3px;
   margin-top: 13px;
   margin-bottom: 15px;
   background: linear-gradient(90deg, #b98525, #e1bb59, #c99832);
@@ -497,9 +501,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .gallery-hero-content {
-    width: 88%;
-  }
 }
 
 @media (max-width: 991.98px) {
@@ -508,7 +509,6 @@
   }
 
   .gallery-hero-content {
-    width: 88%;
     padding-bottom: 60px;
   }
 

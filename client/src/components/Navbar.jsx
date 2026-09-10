@@ -160,10 +160,10 @@ function Navbar() {
           =================================================== */}
 
           <div className="maharaj-actions">
-            <a href="tel:+917450011525" className="maharaj-phone">
+            <a href="tel:+919007194502" className="maharaj-phone">
               <span className="phone-icon">☎</span>
 
-              <span>+91 7450011525</span>
+              <span>+91 9007194502</span>
             </a>
 
             <Link to="/contact-us" className="book-now-btn" onClick={closeNavbar}>

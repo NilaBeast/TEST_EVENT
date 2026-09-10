@@ -4,20 +4,23 @@
     "quote": "Maharaj truly exceeded wedding dreams into reality. Every detail was perfect and our guest were amazed.",
     "author": "Sourav & Tulika",
     "event": "Wedding",
-    "rating": 5
+    "rating": 5,
+    "image": "/images/testimonials/sourav_tulika_hex_badge.png"
   },
   {
     "id": 2,
     "quote": "Our corporate retreat was huge success, thanks to Maharaj's meticulous planning and execution.",
     "author": "Balaram Group of company. CEO",
     "event": "Corporate Retreat",
-    "rating": 5
+    "rating": 5,
+    "image": "/images/testimonials/balaram_ceo_hex_badge.png"
   },
   {
     "id": 3,
     "quote": "My parents 25th Anniversary was so special to us but making this a grand one was outstanding, my parents eyes were filled with tears... Thank you Maharaj",
     "author": "Amit Das",
     "event": "25th Anniversary",
-    "rating": 5
+    "rating": 5,
+    "image": "/images/testimonials/amit_das_hex_badge.png"
   }
 ]

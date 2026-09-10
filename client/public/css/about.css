@@ -67,14 +67,19 @@
   position: relative;
   z-index: 3;
 
-  width: min(1180px, 90%);
-  margin: 0 auto;
+  width: 100%;
+  max-width: 620px;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: clamp(16px, 2.5vw, 32px);
+  padding-right: 20px;
 
   /*
     Slightly higher than center because the bottom
     transparent curve occupies visual space.
   */
   padding-bottom: 42px;
+  text-align: left;
 }
 
 /* =========================================================
@@ -151,8 +156,8 @@
 .about-title-line {
   position: relative;
 
-  width: 58px;
-  height: 2px;
+  width: 80px;
+  height: 3px;
 
   margin-top: 13px;
   margin-bottom: 13px;
@@ -349,6 +354,64 @@
   height: 440px;
   object-fit: cover;
   display: block;
+}
+
+.who-we-are-brand-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
+.who-we-are-brand-stack .brand-name-maharaj {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: clamp(38px, 4.4vw, 58px);
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #3b0b0c;
+  background: linear-gradient(180deg, #240304 0%, #4a0d0f 50%, #3b0b0c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.who-we-are-brand-stack .brand-name-organiser {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(18px, 2.1vw, 26px);
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #b98525;
+  background: linear-gradient(90deg, #996815 0%, #c99832 50%, #d4a338 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.who-we-are-brand-stack .brand-name-company {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.2vw, 14.5px);
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #8c6016;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 152, 50, 0.12) 0%,
+    rgba(201, 152, 50, 0.04) 100%
+  );
+  border: 1.5px solid rgba(201, 152, 50, 0.6);
+  border-radius: 40px;
+  padding: 6px 18px;
+  margin-top: 8px;
+  display: inline-block;
+  box-shadow: 0 3px 12px rgba(201, 152, 50, 0.12);
 }
 
 .who-we-are-title {
@@ -836,6 +899,28 @@
 
   .who-we-are-title {
     font-size: 28px;
+  }
+
+  .who-we-are-brand-stack {
+    gap: 1px;
+    margin-bottom: 16px;
+  }
+
+  .who-we-are-brand-stack .brand-name-maharaj {
+    font-size: clamp(28px, 8.5vw, 36px);
+    letter-spacing: 2px;
+  }
+
+  .who-we-are-brand-stack .brand-name-organiser {
+    font-size: clamp(14px, 4vw, 18px);
+    letter-spacing: 2px;
+  }
+
+  .who-we-are-brand-stack .brand-name-company {
+    font-size: clamp(10px, 2.8vw, 12px);
+    letter-spacing: 1.5px;
+    padding: 5px 14px;
+    margin-top: 6px;
   }
 }
 

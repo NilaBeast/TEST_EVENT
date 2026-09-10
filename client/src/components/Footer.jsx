@@ -4,8 +4,8 @@ import "../../public/css/footer.css";
 
 const footerData = {
   brand: {
-    title: "Event Maharaj Galaxy Pvt. Ltd.",
-    // subtitle: "The Event Organiser",
+    title: "Maharaj The Event Organiser",
+    subtitle: "Event Maharaj Galaxy Pvt. Ltd.",
     description:
       "Creating memorable experiences with perfection in every detail. From grand celebrations to intimate moments, we make every event unforgettable.",
     phone: "+91 9007194502",

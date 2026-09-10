@@ -54,8 +54,12 @@
 .whyus-hero-content {
   position: relative;
   z-index: 3;
-  width: min(1180px, 90%);
-  margin: 0 auto;
+  width: 100%;
+  max-width: 620px;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: clamp(16px, 2.5vw, 32px);
+  padding-right: 20px;
   padding-bottom: 30px;
   text-align: left;
 }
@@ -110,8 +114,8 @@
 
 .whyus-title-line {
   position: relative;
-  width: 58px;
-  height: 2px;
+  width: 80px;
+  height: 3px;
   margin-top: 13px;
   margin-bottom: 15px;
   background: linear-gradient(90deg, #b98525, #e1bb59, #c99832);

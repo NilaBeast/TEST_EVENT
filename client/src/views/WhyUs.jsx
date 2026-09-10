@@ -45,7 +45,7 @@ export default function WhyUs() {
     },
     {
       id: 6,
-      title: "On-time Delivery",
+      title: "On-time Completion",
       description:
         "We value your time and ensure flawless execution within the committed timeline.",
       icon: "ph:shield-check",
@@ -55,7 +55,7 @@ export default function WhyUs() {
   // 6 Key Differentiators / Bullet Points
   const differencePoints = [
     "Personalized approach for every client and occasion",
-    "Strong network of trusted vendors and partners",
+    
     "Transparent communication and honest pricing",
     "Attention to every detail, big or small",
     "Passion for perfection and client satisfaction",

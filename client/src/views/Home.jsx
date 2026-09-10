@@ -362,13 +362,11 @@ export default function Home() {
             <div className="row">
               <div className="col-12 col-lg-7 col-xl-6">
                 <div className="maharaj-content-inner">
-                  {/* Brand Super-title */}
-                  <div className="maharaj-hero-brand-badge left">
-                    <span className="brand-badge-flourish">✦</span>
-                    <span className="brand-badge-text">
-                      Event Maharaj Galaxy Pvt. Ltd.
-                    </span>
-                    <span className="brand-badge-flourish">✦</span>
+                  {/* Brand Name - Stacked */}
+                  <div className="maharaj-hero-brand-stack left">
+                    <span className="brand-name-maharaj">Maharaj</span>
+                    <span className="brand-name-organiser">The Event Organiser</span>
+                    <span className="brand-name-company">Event Maharaj Galaxy Pvt. Ltd.</span>
                   </div>
 
                   {/* Heading */}
@@ -432,15 +430,17 @@ export default function Home() {
               <div className="hero-feature-item">
                 <div className="hero-feature-icon">
                   <svg
-                    width="26"
-                    height="26"
+                    width="34"
+                    height="34"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.5"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <path d="M12 2L4 7v6c0 5.5 3.8 10.7 8 12 4.2-1.3 8-6.5 8-12V7l-8-5z" />
-                    <circle cx="12" cy="11" r="3" />
+                    <circle cx="12" cy="11" r="2.5" />
                   </svg>
                 </div>
                 <div className="hero-feature-text">
@@ -452,17 +452,19 @@ export default function Home() {
               <div className="hero-feature-item">
                 <div className="hero-feature-icon">
                   <svg
-                    width="26"
-                    height="26"
+                    width="34"
+                    height="34"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.5"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
-                    <path d="M4 21h16M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16" />
-                    <line x1="9" y1="9" x2="15" y2="9" />
-                    <line x1="9" y1="13" x2="15" y2="13" />
-                    <line x1="9" y1="17" x2="15" y2="17" />
+                    <path d="M6 3.5C6 2.67 6.67 2 7.5 2h9c.83 0 1.5.67 1.5 1.5V22H6V3.5z" />
+                    <line x1="9" y1="8" x2="15" y2="8" />
+                    <line x1="9" y1="12" x2="15" y2="12" />
+                    <line x1="9" y1="16" x2="15" y2="16" />
                   </svg>
                 </div>
                 <div className="hero-feature-text">
@@ -474,15 +476,24 @@ export default function Home() {
               <div className="hero-feature-item">
                 <div className="hero-feature-icon">
                   <svg
-                    width="26"
-                    height="26"
+                    width="34"
+                    height="34"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.5"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
-                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
-                    <circle cx="12" cy="12" r="3" />
+                    <circle cx="12" cy="12" r="3.5" />
+                    <line x1="12" y1="2.5" x2="12" y2="5.5" />
+                    <line x1="12" y1="18.5" x2="12" y2="21.5" />
+                    <line x1="2.5" y1="12" x2="5.5" y2="12" />
+                    <line x1="18.5" y1="12" x2="21.5" y2="12" />
+                    <line x1="5.28" y1="5.28" x2="7.4" y2="7.4" />
+                    <line x1="16.6" y1="16.6" x2="18.72" y2="18.72" />
+                    <line x1="5.28" y1="18.72" x2="7.4" y2="16.6" />
+                    <line x1="16.6" y1="7.4" x2="18.72" y2="5.28" />
                   </svg>
                 </div>
                 <div className="hero-feature-text">
@@ -494,16 +505,21 @@ export default function Home() {
               <div className="hero-feature-item">
                 <div className="hero-feature-icon">
                   <svg
-                    width="26"
-                    height="26"
+                    width="34"
+                    height="34"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.5"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
-                    <circle cx="12" cy="12" r="10" />
-                    <polyline points="12 6 12 12 16 14" />
-                    <path d="M12 2v2M12 20v2M2 12h2M20 12h2" />
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                    <line x1="12" y1="3" x2="12" y2="4.5" />
+                    <line x1="12" y1="19.5" x2="12" y2="21" />
+                    <line x1="3" y1="12" x2="4.5" y2="12" />
+                    <line x1="19.5" y1="12" x2="21" y2="12" />
                   </svg>
                 </div>
                 <div className="hero-feature-text">
@@ -600,11 +616,11 @@ export default function Home() {
             <div className="col-12 col-lg-5 mb-4 mb-lg-0">
               <div className="about-content">
                 <span className="about-subtitle">WELCOME TO</span>
-                <h2 className="about-title left">
-                  Event Maharaj Galaxy Pvt. Ltd.
-                  <br />
-                  {/* The Event Organiser */}
-                </h2>
+                <div className="maharaj-hero-brand-stack brand-stack-sm">
+                  <span className="brand-name-maharaj">Maharaj</span>
+                  <span className="brand-name-organiser">The Event Organiser</span>
+                  <span className="brand-name-company">Event Maharaj Galaxy Pvt. Ltd.</span>
+                </div>
                 <p className="about-text right">
                   Maharaj is more than just an event organiser, he is a maestro
                   of creating memorable experiences. His passion for event
