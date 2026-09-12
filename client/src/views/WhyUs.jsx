@@ -169,9 +169,7 @@ export default function WhyUs() {
 
           {/* Right Content Column */}
           <div className="difference-content">
-            <div className="section-tag-gold">
-              <span>✦</span> THE MAHARAJ DIFFERENCE <span>✦</span>
-            </div>
+           
             <h2 className="bottom">
               What Sets Us <span className="title-gold">Apart</span>
             </h2>
