@@ -403,7 +403,7 @@ export default function Services() {
               </span>
             </div>
 
-            <h2>Experience the Maharaj Difference</h2>
+            <h2>Experience the Royal Difference</h2>
           </div>
 
           <div className="difference-stats-grid">

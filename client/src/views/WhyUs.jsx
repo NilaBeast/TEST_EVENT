@@ -244,7 +244,7 @@ export default function WhyUs() {
             <div className="cta-text-group">
               <h3>
                 Ready to Experience the{" "}
-                <span className="title-gold left">Maharaj Difference?</span>
+                <span className="title-gold left">Royal Difference?</span>
               </h3>
               <p className="right">Let us turn your vision into an unforgettable celebration.</p>
             </div>
