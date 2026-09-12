@@ -454,6 +454,12 @@
           "icon": "ph:shield-check-fill",
           "title": "Complete Catering Management",
           "description": "From preparation and setup to service and cleanup, our team manages the complete catering experience."
+        },
+        {
+          "id": 9,
+          "icon": "ph:leaf-fill",
+          "title": "Diet Meal",
+          "description": "Nutritious and balanced diet meal options thoughtfully prepared for health-conscious guests, including low-calorie, high-protein and specialised dietary plans."
         }
       ]
     },
