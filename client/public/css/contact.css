@@ -521,7 +521,17 @@
   font-size: 36px;
   font-weight: 700;
   color: #3B0B0C;
-  margin: 10px 0 16px;
+  margin: 10px 0 6px;
+}
+
+.location-visit-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #3B0B0C;
+  margin: 0 0 10px;
 }
 
 .location-address-row {

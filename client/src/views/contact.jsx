@@ -111,8 +111,8 @@ export default function Contact() {
               </div>
               <div className="info-card-body">
                 <h4 className="info-card-title">Visit Us</h4>
-                <span className="info-card-detail">70/1, Bihari Lal Ghosh Road,</span>
-                <span className="info-card-sub">Kolkata - 700057</span>
+                <span className="info-card-detail">Gr Fr 6, Amrita Nagar, Belghoria,</span>
+                <span className="info-card-sub">Kolkata - 700056</span>
               </div>
             </div>
 
@@ -368,14 +368,15 @@ export default function Contact() {
                       <span className="ornate-line"></span>
                     </div>
 
-                    <h3 className="location-title left">Maharaj Galaxy</h3>
+                    <h3 className="location-title left">Event Maharaj Galaxy Pvt. Ltd.</h3>
+
+                    <h4 className="location-visit-label left">Visit Us</h4>
 
                     <div className="location-address-row right">
                       <iconify-icon icon="ph:map-pin-fill" className="location-pin-icon"></iconify-icon>
                       <div className="address-text">
-                        <span className="d-block">70/1, Bihari Lal Ghosh Road,
-</span>
-                        <span>Kolkata - 700156</span>
+                        <span className="d-block">Gr Fr 6, Amrita Nagar, Belghoria,</span>
+                        <span>Kolkata - 700056</span>
                       </div>
                     </div>
 
