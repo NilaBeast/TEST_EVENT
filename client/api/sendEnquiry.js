@@ -47,7 +47,7 @@ export async function sendEnquiry({ fullName, email, phone, eventType, message }
   }
 
   const from = SMTP_FROM || SMTP_USER;
-  const to = ENQUIRY_TO || "nilajeetbasak@gmail.com";
+  const to = ENQUIRY_TO || "maharajeventorganiser@gmail.com";
   const port = Number(SMTP_PORT) || 587;
   const secure = String(SMTP_SECURE).toLowerCase() === "true";
 
