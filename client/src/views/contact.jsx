@@ -15,25 +15,52 @@ export default function Contact() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-      setFormData({
-        fullName: "",
-        email: "",
-        phone: "",
-        eventType: "",
-        message: "",
+    setSubmitted(false);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullName: formData.fullName,
+          email: formData.email,
+          phone: formData.phone,
+          eventType: formData.eventType,
+          message: formData.message,
+        }),
       });
-    }, 1000);
+
+      const data = await response.json().catch(() => ({}));
+
+      if (response.status === 404) {
+        setSubmitError("Enquiry API not found (404). Restart `npm run dev` locally, or check /api/enquiry deployment on Vercel.");
+      } else if (response.ok && data.success) {
+        setSubmitted(true);
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          eventType: "",
+          message: "",
+        });
+      } else {
+        setSubmitError(data.message || "Something went wrong. Please try again.");
+      }
+    } catch (err) {
+      setSubmitError("Failed to send message. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -170,7 +197,13 @@ export default function Contact() {
 
                 {submitted && (
                   <div className="alert alert-success contact-success-alert mb-4">
-                    Thank you for reaching out! Our team will contact you shortly.
+                    Thank you for reaching out! Your enquiry has been sent. Our team will contact you shortly.
+                  </div>
+                )}
+
+                {submitError && (
+                  <div className="alert alert-danger contact-success-alert mb-4">
+                    {submitError}
                   </div>
                 )}
 
