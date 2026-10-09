@@ -1,0 +1,9 @@
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+
+SMTP_USER=manika.basak1977@gmail.com
+SMTP_PASS="bkfs xuxt yeji kias"
+
+SMTP_FROM=manika.basak1977@gmail.com
+ENQUIRY_TO=maharajeventorganiser@gmail.com

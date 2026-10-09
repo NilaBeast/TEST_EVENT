@@ -341,5 +341,165 @@
     "image": "/images/gallery/gallery_54.png",
     "alt": "Outdoor festival stage with fireworks, concert lighting, and festive illumination",
     "category": "other"
+  },
+  {
+    "id": 53,
+    "title": "Blush Floral Entrance Walkway with Draped Canopy",
+    "image": "/images/gallery/gallery_56.jpeg",
+    "alt": "Romantic entry tunnel with blush drapes, lush pink-white florals and hanging crystals",
+    "category": "weddings",
+    "description": "Custom floral tunnels, draped canopies, lighting and complete theme execution for weddings."
+  },
+  {
+    "id": 54,
+    "title": "Traditional Floral Mandap Couple Portrait",
+    "image": "/images/gallery/gallery_57.jpeg",
+    "alt": "Bride in red lehenga and groom in white sherwani under white-pink floral mandap with hanging jasmine",
+    "category": "weddings",
+    "description": "Royal floral mandaps, traditional rituals and flawless execution."
+  },
+  {
+    "id": 55,
+    "title": "Grand South Indian Temple Mandap Stage",
+    "image": "/images/gallery/gallery_58.jpeg",
+    "alt": "Ornate golden temple-style mandap with marigold garlands, brass lamps and traditional carvings",
+    "category": "weddings",
+    "description": "Temple-style mandap decoration, priests, traditional rituals and complete wedding planning."
+  },
+  {
+    "id": 56,
+    "title": "Elegant White Marble Reception Stage with Sofa",
+    "image": "/images/gallery/gallery_59.jpeg",
+    "alt": "White marble reception stage with white sofa, floral garlands and colorful uplighting",
+    "category": "weddings",
+    "description": "Elegant couple stages with marble backdrops, floral styling, lighting and photography-ready setups."
+  },
+  {
+    "id": 57,
+    "title": "Starlit Red & White Draped Outdoor Banquet",
+    "image": "/images/gallery/gallery_60.jpeg",
+    "alt": "Outdoor night banquet with red-white ceiling drapes, fairy lights and round table seating",
+    "category": "weddings",
+    "description": "Venue selection, night canopy draping, banquet seating, lighting, food and hospitality."
+  },
+  {
+    "id": 58,
+    "title": "Sacred Wedding Ritual Hand Ceremony Closeup",
+    "image": "/images/gallery/gallery_61.jpeg",
+    "alt": "Closeup of Bengali wedding ritual hands with gold bangles, henna and marigold flowers",
+    "category": "weddings",
+    "description": "Priests, haldi, mehendi and traditional ceremony arrangements for an authentic wedding."
+  },
+  {
+    "id": 59,
+    "title": "Traditional Bengali Bride & Groom in Wedding Attire",
+    "image": "/images/gallery/gallery_62.jpeg",
+    "alt": "Bengali bride in red saree with mukut and groom in kurta with topor and floral garlands",
+    "category": "weddings",
+    "description": "Topor-mukut styling, priest rituals, decoration, hospitality and photography."
+  },
+  {
+    "id": 60,
+    "title": "Gourmet Continental Breakfast & Fruit Buffet Counter",
+    "image": "/images/gallery/gallery_63.jpeg",
+    "alt": "Lavish buffet counter with fresh fruits, breads, cheeses, salads and breakfast delicacies",
+    "category": "other",
+    "description": "Customized multi-cuisine menus, breakfast spreads, live counters and professional hospitality."
+  },
+  {
+    "id": 61,
+    "title": "Royal Golden Buffet Counter with Chafing Dishes",
+    "image": "/images/gallery/gallery_64.jpeg",
+    "alt": "Golden catering buffet counters with chafing dishes and floral decoration in banquet hall",
+    "category": "other",
+    "description": "Elegant buffet setups, chafing-dish counters, decor-matched dining and complete catering management."
+  },
+  {
+    "id": 62,
+    "title": "Live Catering Counters & Grand Buffet Spread Collage",
+    "image": "/images/gallery/gallery_65.png",
+    "alt": "Catering collage with buffet trays, breakfast spread and live chef pulling kebab at night event",
+    "category": "other",
+    "description": "Interactive catering with fresh preparation, diverse menus and expert guest service."
+  },
+  {
+    "id": 63,
+    "title": "Royal Pre-Wedding Dance at Lakeside Palace Fort",
+    "image": "/images/gallery/gallery_66.png",
+    "alt": "Couple dancing in wedding attire on fort balcony overlooking lake, hills and palace",
+    "category": "weddings",
+    "description": "Destination venues, traditional styling, photography and transportation."
+  },
+  {
+    "id": 64,
+    "title": "Pastel Pink Daytime Haldi & Mehndi Lounge Stage",
+    "image": "/images/gallery/gallery_67.jpeg",
+    "alt": "Pink pastel outdoor lounge with floral canopy, hanging jasmine and elegant chairs",
+    "category": "weddings",
+    "description": "Pastel floral lounges with theme decoration, seating, music and hospitality."
+  },
+  {
+    "id": 65,
+    "title": "Traditional Outdoor Catering Service with Turbaned Staff",
+    "image": "/images/gallery/gallery_68.jpg",
+    "alt": "Catering staff in red turbans serving food from silver chafing dishes at outdoor event",
+    "category": "other",
+    "description": "Warm, efficient buffet service and guest care at every event."
+  },
+  {
+    "id": 66,
+    "title": "Romantic Red & Pink Floral Wall Stage with Golden Sofa",
+    "image": "/images/gallery/gallery_69.jpg",
+    "alt": "Dense red-pink floral wall with hanging blooms, white drapes and carved golden sofa",
+    "category": "weddings",
+    "description": "Lush floral walls, designer sofas, draping and lighting tailored to your wedding theme."
+  },
+  {
+    "id": 67,
+    "title": "Dreamy White Floral Canopy Reception Stage",
+    "image": "/images/gallery/gallery_70.jpg",
+    "alt": "White floral chandelier canopy with white tufted sofa and lavender drapes",
+    "category": "weddings",
+    "description": "White floral canopies, elegant furniture, ambient lighting and flawless setup."
+  },
+  {
+    "id": 68,
+    "title": "Majestic Night Floral Reception Stage with Golden Throne",
+    "image": "/images/gallery/gallery_71.jpg",
+    "alt": "Night outdoor stage with red-white floral arch, crystal hangings and golden throne sofa",
+    "category": "weddings",
+    "description": "Majestic night reception stages with floral arches, crystal decor, throne seating and stage lighting."
+  },
+  {
+    "id": 69,
+    "title": "Cheerful 5th Birthday Balloon Arch Stage",
+    "image": "/images/gallery/gallery_72.jpg",
+    "alt": "Pink-blue-white balloon arch stage with cartoon mascots for 5th birthday celebration",
+    "category": "birthdays",
+    "description": "Themed balloon decor, cartoon entertainment, cakes, photography and complete party planning."
+  },
+  {
+    "id": 70,
+    "title": "Sunlit Garden Couple Shoot in Traditional Attire",
+    "image": "/images/gallery/gallery_73.png",
+    "alt": "Smiling couple in mustard kurta and brown saree sitting on grass in sunlit park",
+    "category": "weddings",
+    "description": "Couple shoots, traditional styling, venue selection and professional photography."
+  },
+  {
+    "id": 71,
+    "title": "Joyful Haldi Pool Party Celebration with Friends",
+    "image": "/images/gallery/gallery_74.jpg",
+    "alt": "Bride groom and friends in yellow outfits playing and jumping in pool during haldi",
+    "category": "weddings",
+    "description": "Unique venues like pool parties, decor, music, food and full coordination for friends and family."
+  },
+  {
+    "id": 72,
+    "title": "Classic Red Bengali Bridal Portrait with Veil",
+    "image": "/images/gallery/gallery_75.jpg",
+    "alt": "Bengali bride closeup with red veil, sindoor, gold nath, henna and floral garland",
+    "category": "weddings",
+    "description": "Professional bridal makeup, traditional styling, photography and complete wedding-day support."
   }
 ]
